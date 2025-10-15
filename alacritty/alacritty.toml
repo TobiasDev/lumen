@@ -1,0 +1,56 @@
+[window]
+
+opacity = 1.0
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark" # "Dark"
+
+[font]
+
+normal.family = "IBM Plex Mono"
+bold.family = "IBM Plex Mono"
+italic.family = "IBM Plex Mono"
+bold_italic.family = "IBM Plex Mono"
+
+size = 11.0
+
+# Default colors
+[colors.primary]
+background = '#121A14'
+foreground = '#E6E1CF'
+
+# Normal colors
+[colors.normal]
+black   = '#101912'  # bg_primary - deep pine shadow
+red     = '#E16C5B'  # error - warm ember red
+green   = '#A3C5A5'  # success - pine green
+yellow  = '#E5A94D'  # accent - signature amber
+blue    = '#B8C7AF'  # info - soft moss green
+magenta = '#D4C99B'  # type - warm beige
+cyan    = '#B8E0B8'  # function - misty soft green
+white   = '#E6E1CF'  # fg_primary - warm ivory
+
+# Bright colors
+[colors.bright]
+black   = '#5C705E'  # comment/fg_muted - muted sage
+red     = '#E16C5B'  # strong_error (same as normal for consistency)
+green   = '#78A67E'  # strong_success - clean forest green
+yellow  = '#FFD67C'  # cursor - soft golden needle light
+blue    = '#B8C7AF'  # info (same as normal)
+magenta = '#E8C48F'  # string - warm amber tone
+cyan    = '#9FAA88'  # operator - light olive-sage
+white   = '#E6E1CF'  # fg_primary (same as normal)
+
+[keyboard]
+[[keyboard.bindings]]
+key = "C"
+mods = "Control"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"

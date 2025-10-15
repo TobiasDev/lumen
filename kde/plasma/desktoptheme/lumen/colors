@@ -1,0 +1,103 @@
+[ColorEffects:Disabled]
+Color=30,30,42
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=false
+Color=26,26,37
+ColorAmount=-0.95
+ColorEffect=0
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=37,37,54
+BackgroundNormal=37,37,54
+DecorationFocus=226,184,109     # Amber keyword
+DecorationHover=217,166,108     # Accent amber
+ForegroundActive=230,225,213    # Text Primary
+ForegroundInactive=176,168,150  # Text Secondary
+ForegroundLink=226,184,109
+ForegroundNegative=245,131,107  # Error
+ForegroundNeutral=230,172,77    # Warning
+ForegroundNormal=230,225,213
+ForegroundPositive=160,197,169  # Success
+ForegroundVisited=208,201,173   # Hint
+
+[Colors:Selection]
+# Used for drag-to-select, list highlights, etc.
+BackgroundAlternate=58,58,78
+BackgroundNormal=62,58,70
+DecorationFocus=217,166,108
+DecorationHover=226,184,109
+ForegroundActive=230,225,213
+ForegroundInactive=176,168,150
+ForegroundLink=217,166,108
+ForegroundNegative=245,131,107
+ForegroundNeutral=230,172,77
+ForegroundNormal=230,225,213
+ForegroundPositive=160,197,169
+ForegroundVisited=208,201,173
+
+[Colors:Tooltip]
+BackgroundAlternate=37,37,54
+BackgroundNormal=42,42,62
+ForegroundInactive=176,168,150
+ForegroundNormal=230,225,213
+
+[Colors:View]
+BackgroundAlternate=37,37,54
+BackgroundNormal=30,30,42
+DecorationFocus=217,166,108
+DecorationHover=226,184,109
+ForegroundActive=230,225,213
+ForegroundInactive=176,168,150
+ForegroundLink=226,184,109
+ForegroundNegative=245,131,107
+ForegroundNeutral=230,172,77
+ForegroundNormal=230,225,213
+ForegroundPositive=160,197,169
+ForegroundVisited=208,201,173
+
+[Colors:Window]
+BackgroundAlternate=37,37,54
+BackgroundNormal=37,37,54
+DecorationFocus=217,166,108
+DecorationHover=226,184,109
+ForegroundActive=230,225,213
+ForegroundInactive=176,168,150
+ForegroundLink=226,184,109
+ForegroundNegative=245,131,107
+ForegroundNeutral=230,172,77
+ForegroundNormal=230,225,213
+ForegroundPositive=160,197,169
+ForegroundVisited=208,201,173
+
+[Colors:Complementary]
+BackgroundAlternate=37,37,54
+BackgroundNormal=37,37,54
+DecorationFocus=226,184,109
+
+[General]
+ColorScheme=Amber
+Name=Amber
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+[WM]
+activeBackground=37,37,54
+activeBlend=37,37,54
+activeForeground=230,225,213
+inactiveBackground=26,26,37
+inactiveBlend=26,26,37
+inactiveForeground=122,116,104

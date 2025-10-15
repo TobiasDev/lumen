@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "contact@tobiasdoerrich.com",
+                "Name": "Tobias"
+            }
+        ],
+        "Category": "",
+        "Description": "Amber for Plasma",
+        "EnabledByDefault": true,
+        "Id": "Amber",
+        "License": "LGPL",
+        "Name": "Amber",
+        "Version": "0.5",
+        "Website": "https://github.com/TobiasDev/Amber"
+    },
+    "X-Plasma-API": "5.0"
+}

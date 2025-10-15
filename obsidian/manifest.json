@@ -1,0 +1,8 @@
+{
+  "name": "Lumen",
+  "version": "0.1.0",
+  "minAppVersion": "0.16.0",
+  "author": "TobiasDev",
+  "authorUrl": "https://github.com/TobiasDev/lumen",
+  "modes": ["dark", "light"]
+}

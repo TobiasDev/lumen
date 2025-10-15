@@ -1,0 +1,355 @@
+/*
+Lumen Theme for Obsidian
+A theme for deep work, lit by natural warmth.
+By TobiasDev
+*/
+
+/* LUMEN THEME — OBSIDIAN DARK MODE */
+.theme-dark {
+  /* Background Colors */
+  --background-primary: #121A14;
+  --background-secondary: #142016;
+  --background-tertiary: #182419;
+  --background-modifier-border: #1A241A;
+  --background-modifier-form-field: #142016;
+  --background-modifier-form-field-highlighted: #1E2C1F;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #A3C5A5;
+  --background-modifier-error: #E16C5B;
+  --background-modifier-error-hover: #D94F45;
+  --background-modifier-cover: rgba(18, 26, 20, 0.8);
+  --background-secondary-alt: #0E160F;
+  
+  /* Text Colors */
+  --text-normal: #E6E1CF;
+  --text-muted: #B3AD9A;
+  --text-faint: #5C705E;
+  --text-error: #E16C5B;
+  --text-accent: #E5A94D;
+  --text-accent-hover: #D8B06A;
+  --text-on-accent: #121A14;
+  --text-selection: rgba(42, 55, 41, 0.6);
+  
+  /* Interactive Elements */
+  --interactive-normal: #142016;
+  --interactive-hover: #1E2C1F;
+  --interactive-accent: #E5A94D;
+  --interactive-accent-hover: #D8B06A;
+  --interactive-success: #A3C5A5;
+  
+  /* Scrollbar */
+  --scrollbar-bg: #121A14;
+  --scrollbar-thumb-bg: #415540;
+  --scrollbar-active-thumb-bg: #E5A94D;
+  
+  /* Title Bar */
+  --titlebar-background: #121A14;
+  --titlebar-background-focused: #121A14;
+  
+  /* Tab Colors */
+  --tab-background-active: #1E2C1F;
+  --tab-text-color-active: #E6E1CF;
+  --tab-text-color-focused-active: #FFD67C;
+  --tab-text-color-focused-active-current: #FFD67C;
+  
+  /* Status Bar */
+  --status-bar-background: #1A241A;
+  
+  /* Dividers */
+  --divider-color: #1A241A;
+  
+  /* Syntax Highlighting */
+  --code-normal: #E6E1CF;
+  --code-comment: #5C705E;
+  --code-function: #B8E0B8;
+  --code-keyword: #CCD9B5;
+  --code-string: #E8C48F;
+  --code-tag: #D8B06A;
+  --code-value: #E5A94D;
+  --code-property: #D4C99B;
+  --code-operator: #9FAA88;
+  
+  /* Additional Colors */
+  --color-red: #E16C5B;
+  --color-orange: #D8B06A;
+  --color-yellow: #E5A94D;
+  --color-green: #A3C5A5;
+  --color-cyan: #B8C7AF;
+  --color-blue: #B8C7AF;
+  --color-purple: #C9B89C;
+  --color-pink: #E8C48F;
+  
+  /* Link Colors */
+  --link-color: #E5A94D;
+  --link-color-hover: #D8B06A;
+  --link-external-color: #E16C5B;
+  --link-unresolved-color: #5C705E;
+  
+  /* Selection & Highlights */
+  --text-highlight-bg: #3E4E3D;
+  --text-highlight-bg-active: rgba(229, 169, 77, 0.3);
+  
+  /* Cursor */
+  --cursor-color: #FFD67C;
+  
+  /* Font Family */
+  --font-interface: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-text: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-monospace: 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+/* Optional Light Theme (soft natural tones, retains Lumen’s balance) */
+.theme-light {
+  --background-primary: #F3F6F4;
+  --background-secondary: #E8EDE8;
+  --background-tertiary: #DDE3DD;
+  --text-normal: #1C241D;
+  --text-muted: #4B554C;
+  --text-faint: #8B968B;
+  --text-accent: #E5A94D;
+  --interactive-accent: #E5A94D;
+  --link-color: #E5A94D;
+}
+
+/* Enhanced Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-active-thumb-bg);
+}
+
+/* Sharp Corners - Remove roundness throughout */
+.modal,
+.menu,
+.suggestion-container,
+.dropdown,
+.prompt,
+.notice,
+button,
+input,
+textarea,
+.search-input,
+.tag,
+.checkbox-container,
+.tree-item-self {
+  border-radius: 0 !important;
+}
+
+/* Editor Enhancements */
+.markdown-source-view.mod-cm6 .cm-scroller {
+  font-family: var(--font-text);
+}
+
+.markdown-source-view.mod-cm6 .cm-line {
+  padding-left: 8px;
+}
+
+/* Code Blocks */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+pre code {
+  font-family: var(--font-monospace);
+  background-color: var(--background-tertiary);
+  border-radius: 0;
+}
+
+/* Headers */
+.cm-header-1,
+.markdown-preview-view h1 {
+  color: var(--code-keyword);
+  font-weight: 600;
+}
+
+.cm-header-2,
+.markdown-preview-view h2 {
+  color: var(--code-function);
+  font-weight: 600;
+}
+
+.cm-header-3,
+.markdown-preview-view h3 {
+  color: var(--code-property);
+  font-weight: 600;
+}
+
+.cm-header-4,
+.markdown-preview-view h4,
+.cm-header-5,
+.markdown-preview-view h5,
+.cm-header-6,
+.markdown-preview-view h6 {
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+/* Links */
+.cm-link,
+.cm-hmd-internal-link,
+.markdown-preview-view a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.cm-link:hover,
+.cm-hmd-internal-link:hover,
+.markdown-preview-view a:hover {
+  color: var(--link-color-hover);
+  text-decoration: underline;
+}
+
+/* Bold and Italic */
+.cm-strong,
+.markdown-preview-view strong {
+  color: var(--code-value);
+  font-weight: 600;
+}
+
+.cm-em,
+.markdown-preview-view em {
+  color: var(--code-string);
+  font-style: italic;
+}
+
+/* Lists */
+.cm-formatting-list,
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  color: var(--text-accent);
+}
+
+/* Blockquotes */
+.cm-quote,
+.markdown-preview-view blockquote {
+  color: var(--text-muted);
+  border-left: 3px solid var(--text-accent);
+  padding-left: 12px;
+}
+
+/* Tags */
+.cm-tag,
+.tag {
+  color: var(--code-tag);
+  background-color: var(--background-tertiary);
+  padding: 2px 6px;
+  border-radius: 0;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--text-selection);
+}
+
+/* Active Line */
+.cm-active.cm-line {
+  background-color: rgba(58, 58, 78, 0.3);
+}
+
+/* Search Results */
+.search-result-file-match {
+  background-color: var(--text-highlight-bg);
+}
+
+.search-result-file-match:hover {
+  background-color: var(--text-highlight-bg-active);
+}
+
+/* File Explorer */
+.nav-file-title,
+.nav-folder-title {
+  border-radius: 0;
+}
+
+.nav-file-title.is-active {
+  background-color: var(--tab-background-active);
+  color: var(--tab-text-color-active);
+}
+
+/* Graph View */
+.graph-view.color-fill-tag {
+  color: var(--code-tag);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--code-value);
+}
+
+.graph-view.color-fill-unresolved {
+  color: var(--link-unresolved-color);
+}
+
+/* Callouts */
+.callout {
+  border-radius: 0;
+  border-left-width: 4px;
+}
+
+.callout[data-callout="info"] {
+  border-left-color: var(--color-blue);
+}
+
+.callout[data-callout="warning"] {
+  border-left-color: var(--color-yellow);
+}
+
+.callout[data-callout="error"],
+.callout[data-callout="danger"] {
+  border-left-color: var(--color-red);
+}
+
+.callout[data-callout="success"] {
+  border-left-color: var(--color-green);
+}
+
+/* Tables */
+.markdown-preview-view table {
+  border-collapse: collapse;
+}
+
+.markdown-preview-view th {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  padding: 8px;
+  font-weight: 600;
+}
+
+.markdown-preview-view td {
+  border: 1px solid var(--background-modifier-border);
+  padding: 8px;
+}
+
+/* Checkboxes */
+.task-list-item-checkbox {
+  border-radius: 0;
+  border: 2px solid var(--text-muted);
+}
+
+.task-list-item-checkbox:checked {
+  background-color: var(--interactive-success);
+  border-color: var(--interactive-success);
+}
+
+/* Focus Mode Enhancement */
+.markdown-source-view.is-readable-line-width .cm-content,
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+  max-width: 800px;
+  padding: 40px 80px;
+}
+
+/* Minimal Distraction */
+.workspace-leaf-content[data-type='empty'] .view-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-faint);
+}
