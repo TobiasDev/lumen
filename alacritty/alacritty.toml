@@ -6,7 +6,7 @@ padding.x = 10
 padding.y = 10
 
 decorations = "Full"
-decorations_theme_variant = "Dark" # "Dark"
+decorations_theme_variant = "Dark"
 
 [font]
 
@@ -19,12 +19,12 @@ size = 11.0
 
 # Default colors
 [colors.primary]
-background = '#121A14'
+background = '#111d14'
 foreground = '#E6E1CF'
 
 # Normal colors
 [colors.normal]
-black   = '#101912'  # bg_primary - deep pine shadow
+black   = '#111d15'  # bg_primary - deep pine shadow
 red     = '#E16C5B'  # error - warm ember red
 green   = '#A3C5A5'  # success - pine green
 yellow  = '#E5A94D'  # accent - signature amber

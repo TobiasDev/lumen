@@ -7,13 +7,13 @@
             }
         ],
         "Category": "",
-        "Description": "Amber for Plasma",
+        "Description": "Lumen for Plasma",
         "EnabledByDefault": true,
-        "Id": "Amber",
+        "Id": "lumen",
         "License": "LGPL",
-        "Name": "Amber",
-        "Version": "0.5",
-        "Website": "https://github.com/TobiasDev/Amber"
+        "Name": "Lumen",
+        "Version": "0.1",
+        "Website": "https://github.com/TobiasDev/lumen"
     },
     "X-Plasma-API": "5.0"
 }

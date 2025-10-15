@@ -12,9 +12,9 @@ vim.g.colors_name = 'Lumen'
 -- Lumen Palette
 local colors = {
   -- Core Backgrounds
-  bg_primary = '#121A14',
-  bg_secondary = '#142016',
-  bg_tertiary = '#182419',
+  bg_primary = '#111d14',
+  bg_secondary = '#141c16',
+  bg_tertiary = '#141e0c',
   bg_active = '#1E2C1F',
   bg_inactive = '#0E160F',
   
@@ -24,7 +24,7 @@ local colors = {
   fg_muted = '#5C705E',
   
   -- UI Elements
-  border = '#1A241A',
+  border = '#1a241a',
   selection = '#2A3729',
   active_item = '#E5A94D',
   scrollbar = '#415540',
@@ -35,8 +35,8 @@ local colors = {
 
   
   -- Syntax Colors
-  keyword = '#CCD9B5',
-  func = '#B8E0B8',
+  keyword = '#bdd496',
+  func = '#83ae83',
   string = '#E8C48F',
   number = '#D8B06A',
   type = '#D4C99B',

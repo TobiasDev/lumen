@@ -1,5 +1,5 @@
 [ColorEffects:Disabled]
-Color=30,30,42
+Color=17,29,20          # bg_primary
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
@@ -9,7 +9,7 @@ IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
-Color=26,26,37
+Color=14,22,15          # bg_inactive
 ColorAmount=-0.95
 ColorEffect=0
 ContrastAmount=0.1
@@ -19,85 +19,92 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=37,37,54
-BackgroundNormal=37,37,54
-DecorationFocus=226,184,109     # Amber keyword
-DecorationHover=217,166,108     # Accent amber
-ForegroundActive=230,225,213    # Text Primary
-ForegroundInactive=176,168,150  # Text Secondary
-ForegroundLink=226,184,109
-ForegroundNegative=245,131,107  # Error
-ForegroundNeutral=230,172,77    # Warning
-ForegroundNormal=230,225,213
-ForegroundPositive=160,197,169  # Success
-ForegroundVisited=208,201,173   # Hint
+BackgroundAlternate=20,28,22   # bg_secondary
+BackgroundNormal=20,30,12
+DecorationFocus=229,169,77     # accent
+DecorationHover=232,196,143    # hover accent
+ForegroundActive=230,225,207   # fg_primary
+ForegroundInactive=179,173,154 # fg_secondary
+ForegroundLink=229,169,77      # accent link
+ForegroundNegative=225,108,91  # error
+ForegroundNeutral=229,169,77   # warning
+ForegroundNormal=230,225,207
+ForegroundPositive=163,197,165 # success
+ForegroundVisited=201,194,170  # hint / muted
 
 [Colors:Selection]
-# Used for drag-to-select, list highlights, etc.
-BackgroundAlternate=58,58,78
-BackgroundNormal=62,58,70
-DecorationFocus=217,166,108
-DecorationHover=226,184,109
-ForegroundActive=230,225,213
-ForegroundInactive=176,168,150
-ForegroundLink=217,166,108
-ForegroundNegative=245,131,107
-ForegroundNeutral=230,172,77
-ForegroundNormal=230,225,213
-ForegroundPositive=160,197,169
-ForegroundVisited=208,201,173
+BackgroundAlternate=42,55,41   # selection
+BackgroundNormal=42,55,41
+DecorationFocus=229,169,77
+DecorationHover=232,196,143
+ForegroundActive=230,225,207
+ForegroundInactive=179,173,154
+ForegroundLink=229,169,77
+ForegroundNegative=225,108,91
+ForegroundNeutral=229,169,77
+ForegroundNormal=230,225,207
+ForegroundPositive=163,197,165
+ForegroundVisited=201,194,170
 
 [Colors:Tooltip]
-BackgroundAlternate=37,37,54
-BackgroundNormal=42,42,62
-ForegroundInactive=176,168,150
-ForegroundNormal=230,225,213
+BackgroundAlternate=20,28,22
+BackgroundNormal=20,32,22      # slightly lighter tooltip
+DecorationFocus=229,169,77
+DecorationHover=232,196,143
+ForegroundActive=230,225,207
+ForegroundInactive=179,173,154
+ForegroundLink=229,169,77
+ForegroundNegative=225,108,91
+ForegroundNeutral=229,169,77
+ForegroundNormal=230,225,207
+ForegroundPositive=163,197,165
+ForegroundVisited=201,194,170
 
 [Colors:View]
-BackgroundAlternate=37,37,54
-BackgroundNormal=30,30,42
-DecorationFocus=217,166,108
-DecorationHover=226,184,109
-ForegroundActive=230,225,213
-ForegroundInactive=176,168,150
-ForegroundLink=226,184,109
-ForegroundNegative=245,131,107
-ForegroundNeutral=230,172,77
-ForegroundNormal=230,225,213
-ForegroundPositive=160,197,169
-ForegroundVisited=208,201,173
+BackgroundAlternate=20,28,22
+BackgroundNormal=17,29,20
+DecorationFocus=229,169,77
+DecorationHover=232,196,143
+ForegroundActive=230,225,207
+ForegroundInactive=179,173,154
+ForegroundLink=229,169,77
+ForegroundNegative=225,108,91
+ForegroundNeutral=229,169,77
+ForegroundNormal=230,225,207
+ForegroundPositive=163,197,165
+ForegroundVisited=201,194,170
 
 [Colors:Window]
-BackgroundAlternate=37,37,54
-BackgroundNormal=37,37,54
-DecorationFocus=217,166,108
-DecorationHover=226,184,109
-ForegroundActive=230,225,213
-ForegroundInactive=176,168,150
-ForegroundLink=226,184,109
-ForegroundNegative=245,131,107
-ForegroundNeutral=230,172,77
-ForegroundNormal=230,225,213
-ForegroundPositive=160,197,169
-ForegroundVisited=208,201,173
+BackgroundAlternate=20,28,22
+BackgroundNormal=20,30,12
+DecorationFocus=229,169,77
+DecorationHover=232,196,143
+ForegroundActive=230,225,207
+ForegroundInactive=179,173,154
+ForegroundLink=229,169,77
+ForegroundNegative=225,108,91
+ForegroundNeutral=229,169,77
+ForegroundNormal=230,225,207
+ForegroundPositive=163,197,165
+ForegroundVisited=201,194,170
 
 [Colors:Complementary]
-BackgroundAlternate=37,37,54
-BackgroundNormal=37,37,54
-DecorationFocus=226,184,109
+BackgroundAlternate=20,28,22
+BackgroundNormal=18,32,23
+DecorationFocus=229,169,77
 
 [General]
-ColorScheme=Amber
-Name=Amber
+ColorScheme=Lumen
+Name=Lumen
 shadeSortColumn=true
 
 [KDE]
 contrast=4
 
 [WM]
-activeBackground=37,37,54
-activeBlend=37,37,54
-activeForeground=230,225,213
-inactiveBackground=26,26,37
-inactiveBlend=26,26,37
-inactiveForeground=122,116,104
+activeBackground=30,44,31      # bg_active
+activeBlend=30,44,31
+activeForeground=230,225,207
+inactiveBackground=14,22,15    # bg_inactive
+inactiveBlend=14,22,15
+inactiveForeground=92,112,94   # fg_muted

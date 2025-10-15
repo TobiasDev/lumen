@@ -10,9 +10,9 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 
 | Element                  | Color     | Description                               |
 | ------------------------ | --------- | ----------------------------------------- |
-| **Background Primary**   | `#121A14` | Deep pine shadow — main background        |
-| **Background Secondary** | `#142016` | Slightly lighter, for panels and sidebars |
-| **Background Tertiary**  | `#182419` | Dropdowns, popups, darker accents         |
+| **Background Primary**   | `#111d14` | Deep pine shadow — main background        |
+| **Background Secondary** | `#141c16` | Slightly lighter, for panels and sidebars |
+| **Background Tertiary**  | `#141e0c` | Dropdowns, popups, darker accents         |
 | **Background Active**    | `#1E2C1F` | Selected or active elements               |
 | **Background Inactive**  | `#0E160F` | Faded surfaces and inactive tabs          |
 

@@ -7,11 +7,11 @@ By TobiasDev
 /* LUMEN THEME — OBSIDIAN DARK MODE */
 .theme-dark {
   /* Background Colors */
-  --background-primary: #121A14;
-  --background-secondary: #142016;
-  --background-tertiary: #182419;
+  --background-primary: #111D14;
+  --background-secondary: #141C16;
+  --background-tertiary: #141E0C;
   --background-modifier-border: #1A241A;
-  --background-modifier-form-field: #142016;
+  --background-modifier-form-field: #141C16;
   --background-modifier-form-field-highlighted: #1E2C1F;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-success: #A3C5A5;
@@ -27,24 +27,24 @@ By TobiasDev
   --text-error: #E16C5B;
   --text-accent: #E5A94D;
   --text-accent-hover: #D8B06A;
-  --text-on-accent: #121A14;
+  --text-on-accent: #111D14;
   --text-selection: rgba(42, 55, 41, 0.6);
   
   /* Interactive Elements */
-  --interactive-normal: #142016;
+  --interactive-normal: #141C16;
   --interactive-hover: #1E2C1F;
   --interactive-accent: #E5A94D;
   --interactive-accent-hover: #D8B06A;
   --interactive-success: #A3C5A5;
   
   /* Scrollbar */
-  --scrollbar-bg: #121A14;
+  --scrollbar-bg: #111D14;
   --scrollbar-thumb-bg: #415540;
   --scrollbar-active-thumb-bg: #E5A94D;
   
   /* Title Bar */
-  --titlebar-background: #121A14;
-  --titlebar-background-focused: #121A14;
+  --titlebar-background: #111D14;
+  --titlebar-background-focused: #111D14;
   
   /* Tab Colors */
   --tab-background-active: #1E2C1F;
