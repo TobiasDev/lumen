@@ -92,11 +92,12 @@ Its geometry pairs perfectly with the organic calm of this palette — clarity m
 
 ## Supported Applications
 
+* **Alacritty**
 * **Neovim**
 * **Godot 4.x**
 * **Obsidian**
 * **KDE Plasma (Partially)**
-* **Krita (Partially)**
+* **Krita**
 
 ---
 
@@ -118,7 +119,7 @@ Its geometry pairs perfectly with the organic calm of this palette — clarity m
 * [x] Create Obsidian Theme
 * [ ] Create KDE Theme
 * [ ] Create OBS Theme
-* [ ] Create Krita Theme
+* [x] Create Krita Theme
 * [ ] Add wallpapers & accent assets
 
 ---
