@@ -7,9 +7,11 @@ By TobiasDev
 /* LUMEN THEME — OBSIDIAN DARK MODE */
 .theme-dark {
   /* Background Colors */
-  --background-primary: #1B241B;
-  --background-secondary: #202C21;
-  --background-tertiary: #161E16;
+  --background-primary: #1B241B;     /* Muted sage shadow */
+  --background-secondary: #202C21;   /* Slightly lighter surface */
+  --background-tertiary: #161E16;    /* Depth and layering */
+  --background-active: #2A3729;      /* Selected/active panel */
+  --background-inactive: #121A12;    /* Dimmed, restful layer */
   --background-modifier-border: #1A241A;
   --background-modifier-form-field: #202C21;
   --background-modifier-form-field-highlighted: #1E2C1F;
@@ -21,30 +23,32 @@ By TobiasDev
   --background-secondary-alt: #0E160F;
   
   /* Text Colors */
-  --text-normal: #E8E3D1;
-  --text-muted: #6C7C6E;
-  --text-faint: #5C705E;
-  --text-error: #E16C5B;
-  --text-accent: #E5A94D;
+  --text-normal: #E8E3D1;            /* Warm ivory */
+  --text-secondary: #B9B39E;         /* Gentle beige-gray */
+  --text-muted: #6C7C6E;             /* Quiet sage tone */
+  --text-error: #E17860;             /* Ember red */
+  --text-accent: #E4B463;            /* Signature amber */
   --text-accent-hover: #D8B06A;
   --text-on-accent: #1B241B;
-  --text-selection: rgba(42, 55, 41, 0.6);
+  --text-selection: rgba(51, 67, 51, 0.6);
   
   /* Interactive Elements */
   --interactive-normal: #202C21;
-  --interactive-hover: #1E2C1F;
-  --interactive-accent: #E5A94D;
+  --interactive-hover: #2A3729;
+  --interactive-accent: #E4B463;
   --interactive-accent-hover: #D8B06A;
-  --interactive-success: #A3C5A5;
+  --interactive-success: #98C5A0;
   
   /* Scrollbar */
   --scrollbar-bg: #1B241B;
-  --scrollbar-thumb-bg: #415540;
-  --scrollbar-active-thumb-bg: #E5A94D;
+  --scrollbar-thumb-bg: #465845;
+  --scrollbar-active-thumb-bg: #E4B463;
   
   /* Title Bar */
   --titlebar-background: #1B241B;
   --titlebar-background-focused: #1B241B;
+  --status-bar-background: #1C271C;
+  --divider-color: #1E281F;
   
   /* Tab Colors */
   --tab-background-active: #1E2C1F;
@@ -52,45 +56,40 @@ By TobiasDev
   --tab-text-color-focused-active: #FFD67C;
   --tab-text-color-focused-active-current: #FFD67C;
   
-  /* Status Bar */
-  --status-bar-background: #1A241A;
-  
-  /* Dividers */
-  --divider-color: #1A241A;
   
   /* Syntax Highlighting */
   --code-normal: #E8E3D1;
-  --code-comment: #5C705E;
-  --code-function: #B8E0B8;
-  --code-keyword: #CCD9B5;
-  --code-string: #E8C48F;
-  --code-tag: #D8B06A;
-  --code-value: #E5A94D;
-  --code-property: #D4C99B;
-  --code-operator: #9FAA88;
+  --code-comment: #6C7C6E;
+  --code-function: #BFD5AF;
+  --code-keyword: #D8C58E;
+  --code-string: #E7C287;
+  --code-number: #D8B06A;
+  --code-type: #D4C99B;
+  --code-constant: #E4B463;
+  --code-parameter: #C8BBA2;
+  --code-operator: #A6AF96;
+  --code-bracket: #A6AF96;
   
   /* Additional Colors */
-  --color-red: #E16C5B;
+  --color-red: #E17860;
   --color-orange: #D8B06A;
-  --color-yellow: #E5A94D;
-  --color-green: #A3C5A5;
-  --color-cyan: #B8C7AF;
-  --color-blue: #B8C7AF;
+  --color-yellow: #E4B463;
+  --color-green: #98C5A0;
+  --color-cyan: #B4C7B0;
+  --color-blue: #B4C7B0;
   --color-purple: #C9B89C;
   --color-pink: #E8C48F;
   
   /* Link Colors */
-  --link-color: #E5A94D;
+  --link-color: #E4B463;
   --link-color-hover: #D8B06A;
-  --link-external-color: #E16C5B;
-  --link-unresolved-color: #5C705E;
+  --link-external-color: #E17860;
+  --link-unresolved-color: #6C7C6E;
   
   /* Selection & Highlights */
-  --text-highlight-bg: #3E4E3D;
-  --text-highlight-bg-active: rgba(229, 169, 77, 0.3);
-  
-  /* Cursor */
-  --cursor-color: #FFD67C;
+  --text-highlight-bg: #334333;
+  --text-highlight-bg-active: rgba(228, 180, 99, 0.25);
+  --cursor-color: #E4B463;
   
   /* Font Family */
   --font-interface: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

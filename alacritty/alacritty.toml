@@ -19,12 +19,12 @@ size = 11.0
 
 # Default colors
 [colors.primary]
-background = '#111d14'
-foreground = '#E6E1CF'
+background = '#1B241B'
+foreground = '#E8E3D1'
 
 # Normal colors
 [colors.normal]
-black   = '#111d15'  # bg_primary - deep pine shadow
+black   = '#1B241B'  # bg_primary - deep pine shadow
 red     = '#E16C5B'  # error - warm ember red
 green   = '#A3C5A5'  # success - pine green
 yellow  = '#E5A94D'  # accent - signature amber

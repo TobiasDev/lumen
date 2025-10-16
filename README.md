@@ -1,13 +1,11 @@
 # Lumen
-
 ### A theme for deep work, lit by natural warmth.
 
 Lumen is my personal theme focused on long sessions of deep, uninterrupted work. It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundness to maintain clarity without visual noise. The color palette is gentle yet expressive, aiming to reduce eye strain over 20+ hour work sessions.
 
 ---
 
-## 🌲 Core Background Colors
-
+## Core Background Colors
 | Element                  | HEX       | RGB (0–255)  | Description                         |
 | ------------------------ | --------- | ------------ | ----------------------------------- |
 | **Background Primary**   | `#1B241B` | `27, 36, 27` | Muted sage shadow — main background |
@@ -16,20 +14,14 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Background Active**    | `#2A3729` | `42, 55, 41` | Selected or active panels           |
 | **Background Inactive**  | `#121A12` | `18, 26, 18` | Dimmed, restful layer               |
 
----
-
-## ✨ Core Text Colors
-
+## Core Text Colors
 | Element            | HEX       | RGB (0–255)     | Description                      |
 | ------------------ | --------- | --------------- | -------------------------------- |
 | **Text Primary**   | `#E8E3D1` | `232, 227, 209` | Warm ivory — main readable text  |
 | **Text Secondary** | `#B9B39E` | `185, 179, 158` | Gentle beige-gray — secondary UI |
 | **Text Muted**     | `#6C7C6E` | `108, 124, 110` | Quiet sage — subtle or comment   |
 
----
-
-## ⚙️ UI Elements
-
+## UI Elements
 | Element             | HEX       | RGB (0–255)     | Description                |
 | ------------------- | --------- | --------------- | -------------------------- |
 | **Border**          | `#1E281F` | `30, 40, 31`    | Natural separation         |
@@ -41,10 +33,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Line Number**     | `#6C7C6E` | `108, 124, 110` | Subtle sage indicator      |
 | **Cursor Line**     | `#2A3729` | `42, 55, 41`    | Active line highlight      |
 
----
-
-## 💻 Syntax / Code Colors
-
+## Syntax / Code Colors
 | Token         | HEX       | RGB (0–255)     | Description                          |
 | ------------- | --------- | --------------- | ------------------------------------ |
 | **Keyword**   | `#D8C58E` | `216, 197, 142` | Balanced ochre tone                  |
@@ -58,10 +47,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Bracket**   | `#A6AF96` | `166, 175, 150` | Matches operator tone                |
 | **Comment**   | `#6C7C6E` | `108, 124, 110` | Subtle sage — fades into background  |
 
----
-
-## ⚠️ State Colors
-
+## State Colors
 | State       | HEX       | RGB (0–255)     | Description                   |
 | ----------- | --------- | --------------- | ----------------------------- |
 | **Error**   | `#E17860` | `225, 120, 96`  | Warm ember red                |
@@ -70,19 +56,14 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Success** | `#98C5A0` | `152, 197, 160` | Gentle forest approval        |
 | **Hint**    | `#D0CBB3` | `208, 203, 179` | Whispered ivory suggestion    |
 
----
-
-## 🌿 Git / Version Control
-
+## Git / Version Control
 | Action       | HEX       | RGB (0–255)     | Description                     |
 | ------------ | --------- | --------------- | ------------------------------- |
 | **Added**    | `#98C5A0` | `152, 197, 160` | Success green — growth and life |
 | **Modified** | `#E4B463` | `228, 180, 99`  | Amber change — evolution        |
 | **Deleted**  | `#E17860` | `225, 120, 96`  | Ember red — removal             |
 
----
-
-## 🎯 Focus & Attention
+## Focus & Attention
 
 | Element                | HEX       | RGB (0–255)    | Description                |
 | ---------------------- | --------- | -------------- | -------------------------- |
@@ -96,7 +77,6 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 ## Typography
 
 **IBM Plex**
-
 * **Mono** for development tools (Neovim, terminals)
 * **Sans** for interfaces and notes
 
@@ -108,6 +88,9 @@ Its geometry pairs perfectly with the organic calm of this palette — clarity m
 
 * **Neovim**
 * **Godot 4.x**
+* **Obsidian**
+* **KDE Plasma (Partially)**
+* **Krita (Partially)**
 
 ---
 
@@ -116,10 +99,9 @@ Its geometry pairs perfectly with the organic calm of this palette — clarity m
 1. Open **Editor → Editor Settings**
 2. Navigate to **Interface → Theme**
 3. Update to these values:
-
    * **Base Color:** `#121A14`
    * **Accent Color:** `#E5A94D`
-   * **Contrast:** `0.1`
+   * **Contrast:** `0.2`
 
 ---
 
