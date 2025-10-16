@@ -6,6 +6,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 ---
 
 ## Core Background Colors
+![Backgrounds](palettes/backgrounds.png)
 | Element                  | HEX       | RGB (0–255)  | Description                         |
 | ------------------------ | --------- | ------------ | ----------------------------------- |
 | **Background Primary**   | `#1B241B` | `27, 36, 27` | Muted sage shadow — main background |
