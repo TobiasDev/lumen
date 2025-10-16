@@ -16,6 +16,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Background Inactive**  | `#121A12` | `18, 26, 18` | Dimmed, restful layer               |
 
 ## Core Text Colors
+![Backgrounds](palettes/text.png)
 | Element            | HEX       | RGB (0–255)     | Description                      |
 | ------------------ | --------- | --------------- | -------------------------------- |
 | **Text Primary**   | `#E8E3D1` | `232, 227, 209` | Warm ivory — main readable text  |
@@ -23,6 +24,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Text Muted**     | `#6C7C6E` | `108, 124, 110` | Quiet sage — subtle or comment   |
 
 ## UI Elements
+![Backgrounds](palettes/ui_elements.png)
 | Element             | HEX       | RGB (0–255)     | Description                |
 | ------------------- | --------- | --------------- | -------------------------- |
 | **Border**          | `#1E281F` | `30, 40, 31`    | Natural separation         |
@@ -35,6 +37,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Cursor Line**     | `#2A3729` | `42, 55, 41`    | Active line highlight      |
 
 ## Syntax / Code Colors
+![Backgrounds](palettes/syntax_code.png)
 | Token         | HEX       | RGB (0–255)     | Description                          |
 | ------------- | --------- | --------------- | ------------------------------------ |
 | **Keyword**   | `#D8C58E` | `216, 197, 142` | Balanced ochre tone                  |
@@ -49,6 +52,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Comment**   | `#6C7C6E` | `108, 124, 110` | Subtle sage — fades into background  |
 
 ## State Colors
+![Backgrounds](palettes/state.png)
 | State       | HEX       | RGB (0–255)     | Description                   |
 | ----------- | --------- | --------------- | ----------------------------- |
 | **Error**   | `#E17860` | `225, 120, 96`  | Warm ember red                |
@@ -58,6 +62,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Hint**    | `#D0CBB3` | `208, 203, 179` | Whispered ivory suggestion    |
 
 ## Git / Version Control
+![Backgrounds](palettes/git.png)
 | Action       | HEX       | RGB (0–255)     | Description                     |
 | ------------ | --------- | --------------- | ------------------------------- |
 | **Added**    | `#98C5A0` | `152, 197, 160` | Success green — growth and life |
@@ -65,7 +70,7 @@ Lumen is my personal theme focused on long sessions of deep, uninterrupted work.
 | **Deleted**  | `#E17860` | `225, 120, 96`  | Ember red — removal             |
 
 ## Focus & Attention
-
+![Backgrounds](palettes/focus_attention.png)
 | Element                | HEX       | RGB (0–255)    | Description                |
 | ---------------------- | --------- | -------------- | -------------------------- |
 | **Cursor**             | `#E4B463` | `228, 180, 99` | Amber cursor — focal spark |
