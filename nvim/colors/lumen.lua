@@ -1,5 +1,5 @@
--- Lumen - A theme for deep work, lit by natural warmth
--- Built for long creative sessions in calm focus
+-- Lumen v2 - A grounded, amber-lit workspace theme for deep creative flow
+-- The key is balance: green as the earth, amber as the light, ivory as the breath
 
 vim.cmd('hi clear')
 if vim.fn.exists('syntax_on') then
@@ -7,71 +7,64 @@ if vim.fn.exists('syntax_on') then
 end
 
 vim.o.background = 'dark'
-vim.g.colors_name = 'Lumen'
+vim.g.colors_name = 'lumen'
 
--- Lumen Palette
+-- Lumen v2 Palette
 local colors = {
   -- Core Backgrounds
-  bg_primary = '#111d14',
-  bg_secondary = '#141c16',
-  bg_tertiary = '#141e0c',
-  bg_active = '#1E2C1F',
-  bg_inactive = '#0E160F',
+  bg_primary = '#1B241B',      -- Muted sage shadow
+  bg_secondary = '#202C21',    -- Slightly lighter surface
+  bg_tertiary = '#161E16',     -- Depth and layering
+  bg_active = '#2A3729',       -- Selected/active panel
+  bg_inactive = '#121A12',     -- Dimmed, restful layer
   
   -- Core Text
-  fg_primary = '#E6E1CF',
-  fg_secondary = '#B3AD9A',
-  fg_muted = '#5C705E',
+  fg_primary = '#E8E3D1',      -- Warm ivory
+  fg_secondary = '#B9B39E',    -- Gentle beige-gray
+  fg_muted = '#6C7C6E',        -- Quiet sage tone
   
   -- UI Elements
-  border = '#1a241a',
-  selection = '#2A3729',
-  active_item = '#E5A94D',
-  scrollbar = '#415540',
-  menu_bg = '#142016',
-  status_bar = '#1A241A',
-  line_number = '#677A69',
-  cursor_line = '#202E20',
-
+  border = '#1E281F',          -- Natural separation
+  selection = '#334333',       -- Soft moss overlay
+  active_item = '#E4B463',     -- Signature amber highlight
+  scrollbar = '#465845',       -- Calm sage-gray
+  menu_bg = '#182218',         -- Quiet hover layer
+  status_bar = '#1C271C',      -- Grounded footer
+  line_number = '#6C7C6E',     -- Subtle sage
+  cursor_line = '#2A3729',     -- Active line highlight
   
   -- Syntax Colors
-  keyword = '#bdd496',
-  func = '#83ae83',
-  string = '#E8C48F',
-  number = '#D8B06A',
-  type = '#D4C99B',
-  constant = '#E5A94D',
-  parameter = '#C9B89C',
-  operator = '#9FAA88',
-  bracket = '#9FAA88',
-  comment = '#5C705E',
+  keyword = '#D8C58E',         -- Balanced ochre
+  func = '#BFD5AF',            -- Soft sage-green
+  string = '#E7C287',          -- Warm amber text
+  number = '#D8B06A',          -- Muted gold
+  type = '#D4C99B',            -- Creamy beige
+  constant = '#E4B463',        -- Amber spark
+  parameter = '#C8BBA2',       -- Neutral supporting tone
+  operator = '#A6AF96',        -- Quiet gray-green
+  bracket = '#A6AF96',         -- Matches operator
+  comment = '#6C7C6E',         -- Subtle sage
   
   -- State Colors
-  error = '#E16C5B',
-  warning = '#E5A94D',
-  info = '#B8C7AF',
-  success = '#A3C5A5',
-  hint = '#C9C2AA',
+  error = '#E17860',           -- Warm ember red
+  warning = '#E4B463',         -- Amber tone
+  info = '#B4C7B0',            -- Misty moss green
+  success = '#98C5A0',         -- Gentle forest approval
+  hint = '#D0CBB3',            -- Whispered ivory
   
   -- Git Colors
-  git_add = '#A3C5A5',
-  git_change = '#E5A94D',
-  git_delete = '#E16C5B',
+  git_add = '#98C5A0',         -- Success green
+  git_change = '#E4B463',      -- Amber change
+  git_delete = '#E17860',      -- Error red
   
   -- Focus & Attention
-  cursor = '#FFD67C',
-  search = '#3E4E3D',
-  visual = '#2A3729',
-  accent = '#E5A94D',
-  
-  -- Strong Signals
-  strong_warning = '#E5A94D',
-  strong_error = '#E16C5B',
-  strong_success = '#78A67E',
-  strong_general = '#B89D6C',
+  cursor = '#E4B463',          -- Amber cursor
+  search = '#334333',          -- Soft moss search
+  visual = '#2A3729',          -- Active selection
+  accent = '#E4B463',          -- Signature amber
 }
 
--- Helper function for setting highlights
+-- Helper function
 local function hi(group, opts)
   local cmd = 'hi ' .. group
   if opts.fg then cmd = cmd .. ' guifg=' .. opts.fg end
@@ -87,7 +80,7 @@ hi('NormalFloat', { fg = colors.fg_primary, bg = colors.bg_secondary })
 hi('NormalNC', { fg = colors.fg_primary, bg = colors.bg_primary })
 hi('Cursor', { fg = colors.bg_primary, bg = colors.cursor })
 hi('CursorLine', { bg = colors.cursor_line })
-hi('CursorColumn', { bg = colors.bg_active })
+hi('CursorColumn', { bg = colors.cursor_line })
 hi('LineNr', { fg = colors.line_number })
 hi('CursorLineNr', { fg = colors.accent, style = 'bold' })
 hi('SignColumn', { bg = colors.bg_primary })
@@ -104,7 +97,7 @@ hi('TabLine', { fg = colors.fg_secondary, bg = colors.bg_secondary })
 hi('TabLineFill', { bg = colors.bg_primary })
 hi('TabLineSel', { fg = colors.accent, bg = colors.bg_active, style = 'bold' })
 
--- Pmenu (completion menu)
+-- Pmenu (completion)
 hi('Pmenu', { fg = colors.fg_primary, bg = colors.menu_bg })
 hi('PmenuSel', { fg = colors.bg_primary, bg = colors.accent })
 hi('PmenuSbar', { bg = colors.scrollbar })
@@ -116,14 +109,14 @@ hi('IncSearch', { fg = colors.bg_primary, bg = colors.accent })
 hi('Visual', { bg = colors.visual })
 hi('VisualNOS', { bg = colors.visual })
 
--- Messages & Command Line
+-- Messages
 hi('ModeMsg', { fg = colors.accent, style = 'bold' })
 hi('MoreMsg', { fg = colors.info })
 hi('Question', { fg = colors.info })
 hi('ErrorMsg', { fg = colors.error })
 hi('WarningMsg', { fg = colors.warning })
 
--- Syntax Highlighting
+-- Syntax
 hi('Comment', { fg = colors.comment, style = 'italic' })
 hi('Constant', { fg = colors.constant })
 hi('String', { fg = colors.string })
@@ -166,7 +159,7 @@ hi('Ignore', { fg = colors.fg_muted })
 hi('Error', { fg = colors.error })
 hi('Todo', { fg = colors.warning, style = 'bold' })
 
--- Treesitter Syntax
+-- Treesitter
 hi('@parameter', { fg = colors.parameter })
 hi('@variable', { fg = colors.fg_primary })
 hi('@variable.builtin', { fg = colors.constant })
@@ -212,7 +205,7 @@ hi('@lsp.type.type', { fg = colors.type })
 hi('@lsp.type.typeParameter', { fg = colors.parameter })
 hi('@lsp.type.variable', { fg = colors.fg_primary })
 
--- Diagnostic
+-- Diagnostics
 hi('DiagnosticError', { fg = colors.error })
 hi('DiagnosticWarn', { fg = colors.warning })
 hi('DiagnosticInfo', { fg = colors.info })
@@ -228,13 +221,15 @@ hi('GitSignsChange', { fg = colors.git_change })
 hi('GitSignsDelete', { fg = colors.git_delete })
 
 -- Telescope
-hi('TelescopeBorder', { fg = colors.border })
-hi('TelescopePromptBorder', { fg = colors.border })
-hi('TelescopeResultsBorder', { fg = colors.border })
-hi('TelescopePreviewBorder', { fg = colors.border })
+hi('TelescopeBorder', { bg = colors.bg_tertiary, fg = colors.border })
+hi('TelescopePromptBorder', {  bg = colors.bg_tertiary, fg = colors.border })
+hi('TelescopeResultsBorder', {  bg = colors.bg_tertiary, fg = colors.border })
+hi('TelescopePreviewBorder', { bg = colors.bg_tertiary, fg = colors.border })
 hi('TelescopeSelection', { fg = colors.accent, bg = colors.selection })
-hi('TelescopeSelectionCaret', { fg = colors.accent })
+hi('TelescopeSelectionCaret', { fg = colors.cursor })
 hi('TelescopeMatching', { fg = colors.accent, style = 'bold' })
+hi('TelescopeNormal', { bg = colors.bg_tertiary, fg = colors.fg_primary })
+
 
 -- NvimTree
 hi('NvimTreeNormal', { fg = colors.fg_primary, bg = colors.bg_secondary })
@@ -248,17 +243,7 @@ hi('NvimTreeGitDirty', { fg = colors.git_change })
 hi('NvimTreeGitNew', { fg = colors.git_add })
 hi('NvimTreeGitDeleted', { fg = colors.git_delete })
 
--- @TODO: These still need to be converted I think
--- Diff Highlighting
-hi('DiffAdd', { fg = colors.git_add, bg = colors.bg_tertiary })
-hi('DiffChange', { fg = colors.git_change, bg = colors.bg_tertiary })
-hi('DiffDelete', { fg = colors.git_delete, bg = colors.bg_tertiary })
-hi('DiffText', { fg = colors.fg_primary, bg = colors.selection })
-
-
-
-
--- Terminal
+-- Terminal colors
 vim.g.terminal_color_0 = colors.bg_primary
 vim.g.terminal_color_1 = colors.error
 vim.g.terminal_color_2 = colors.success
@@ -268,9 +253,9 @@ vim.g.terminal_color_5 = colors.accent
 vim.g.terminal_color_6 = colors.func
 vim.g.terminal_color_7 = colors.fg_primary
 vim.g.terminal_color_8 = colors.fg_muted
-vim.g.terminal_color_9 = colors.strong_error
-vim.g.terminal_color_10 = colors.strong_success
-vim.g.terminal_color_11 = colors.strong_warning
+vim.g.terminal_color_9 = colors.error
+vim.g.terminal_color_10 = colors.success
+vim.g.terminal_color_11 = colors.warning
 vim.g.terminal_color_12 = colors.info
 vim.g.terminal_color_13 = colors.accent
 vim.g.terminal_color_14 = colors.func
