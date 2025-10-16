@@ -1,4 +1,3 @@
-
 <bpy>
   <Theme>
     <user_interface>
@@ -16,9 +15,9 @@
         transparent_checker_primary="#202c21"
         transparent_checker_secondary="#161e16"
         transparent_checker_size="8"
-        axis_x="#e17860"
-        axis_y="#98c5a0"
-        axis_z="#b4c7b0"
+        axis_x="#ff5843"
+        axis_y="#3fff00"
+        axis_z="#0083ff"
         gizmo_hi="#e8e3d1"
         gizmo_primary="#e4b463"
         gizmo_secondary="#b4c7b0"
@@ -218,7 +217,7 @@
         <wcol_menu_back>
           <ThemeWidgetColors
             outline="#1e281fff"
-            inner="#182218ea"
+            inner="#182218ff"
             inner_sel="#2a3729ff"
             item="#e4b463ff"
             text="#e8e3d1"
@@ -322,6 +321,10 @@
         </wcol_list_item>
         <wcol_state>
           <ThemeWidgetStateColors
+            error="#771111ff"
+            warning="#ac8737ff"
+            info="#28487dff"
+            success="#188625ff"
             inner_anim="#98c5a0"
             inner_anim_sel="#98c5a0"
             inner_key="#e4b463"
@@ -462,8 +465,8 @@
             </gradients>
             <panelcolors>
               <ThemePanelColors
-                header="#202c2168"
-                back="#202c2168"
+                header="#202c21ff"
+                back="#1b241bff"
                 sub_back="#0000001a"
                 >
               </ThemePanelColors>
@@ -860,6 +863,8 @@
         metadatatext="#e8e3d1"
         preview_range="#98c5a066"
         row_alternate="#0000001a"
+        text_strip_cursor="#71a8ffff"
+        selected_text="#ffffff4d"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1020,6 +1025,7 @@
         simulation_zone="#e4b46333"
         repeat_zone="#e4b46333"
         foreach_geometry_element_zone="#b4c7b033"
+        closure_zone="#527f3333"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1108,11 +1114,8 @@
       <ThemeInfo
         info_selected="#2a3729"
         info_selected_text="#e8e3d1"
-        info_error="#e17860ff"
         info_error_text="#e8e3d1"
-        info_warning="#e4b463ff"
         info_warning_text="#e8e3d1"
-        info_info="#b4c7b0ff"
         info_info_text="#e8e3d1"
         info_debug="#d8c58eff"
         info_debug_text="#e8e3d1"
@@ -1249,6 +1252,7 @@
         strips_selected="#98c5a0"
         metadatabg="#121a12"
         metadatatext="#e8e3d1"
+        preview_range="#a14d0066"
         handle_free="#6c7c6e"
         handle_auto="#d8c58e"
         handle_align="#d4c99b"
