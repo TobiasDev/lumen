@@ -1,122 +1,113 @@
-# Lumen  
+# Lumen
+
 ### A theme for deep work, lit by natural warmth.
 
 Lumen is my personal theme focused on long sessions of deep, uninterrupted work. It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundness to maintain clarity without visual noise. The color palette is gentle yet expressive, aiming to reduce eye strain over 20+ hour work sessions.
 
+---
+
+## 🌲 Core Background Colors
+
+| Element                  | HEX       | RGB (0–255)  | Description                         |
+| ------------------------ | --------- | ------------ | ----------------------------------- |
+| **Background Primary**   | `#1B241B` | `27, 36, 27` | Muted sage shadow — main background |
+| **Background Secondary** | `#202C21` | `32, 44, 33` | Slightly lighter surface and panels |
+| **Background Tertiary**  | `#161E16` | `22, 30, 22` | Depth and layering                  |
+| **Background Active**    | `#2A3729` | `42, 55, 41` | Selected or active panels           |
+| **Background Inactive**  | `#121A12` | `18, 26, 18` | Dimmed, restful layer               |
 
 ---
 
-## Core Background Colors
+## ✨ Core Text Colors
 
-| Element                  | Color     | Description                               |
-| ------------------------ | --------- | ----------------------------------------- |
-| **Background Primary**   | `#111d14` | Deep pine shadow — main background        |
-| **Background Secondary** | `#141c16` | Slightly lighter, for panels and sidebars |
-| **Background Tertiary**  | `#141e0c` | Dropdowns, popups, darker accents         |
-| **Background Active**    | `#1E2C1F` | Selected or active elements               |
-| **Background Inactive**  | `#0E160F` | Faded surfaces and inactive tabs          |
+| Element            | HEX       | RGB (0–255)     | Description                      |
+| ------------------ | --------- | --------------- | -------------------------------- |
+| **Text Primary**   | `#E8E3D1` | `232, 227, 209` | Warm ivory — main readable text  |
+| **Text Secondary** | `#B9B39E` | `185, 179, 158` | Gentle beige-gray — secondary UI |
+| **Text Muted**     | `#6C7C6E` | `108, 124, 110` | Quiet sage — subtle or comment   |
 
 ---
 
-## Core Text Colors
+## ⚙️ UI Elements
 
-| Element            | Color     | Description                      |
-| ------------------ | --------- | -------------------------------- |
-| **Text Primary**   | `#E6E1CF` | Warm ivory — main content        |
-| **Text Secondary** | `#B3AD9A` | Muted beige — comments, metadata |
-| **Text Muted**     | `#5C705E` | Subtle sage — low priority text  |
-
----
-
-## UI Elements ⚙️
-
-| Element             | Color     | Description                    |
-| ------------------- | --------- | ------------------------------ |
-| **Border**          | `#1A241A` | Subtle edge contrast           |
-| **Selection**       | `#2A3729` | Highlighted background         |
-| **Active Item**     | `#E5A94D` | The signature amber glow       |
-| **Scrollbar**       | `#415540` | Calm, low-contrast scroll area |
-| **Menu Background** | `#142016` | Layered panel color            |
-| **Status Bar**      | `#1A241A` | Grounded green-gray tone       |
-| **Line Number**     | `#677A69` | -       |
-| **Cursor Line**     | `#202E20` | -       |
+| Element             | HEX       | RGB (0–255)     | Description                |
+| ------------------- | --------- | --------------- | -------------------------- |
+| **Border**          | `#1E281F` | `30, 40, 31`    | Natural separation         |
+| **Selection**       | `#334333` | `51, 67, 51`    | Soft moss overlay          |
+| **Active Item**     | `#E4B463` | `228, 180, 99`  | Signature amber highlight  |
+| **Scrollbar**       | `#465845` | `70, 88, 69`    | Calm sage-gray tone        |
+| **Menu Background** | `#182218` | `24, 34, 24`    | Quiet hover layer          |
+| **Status Bar**      | `#1C271C` | `28, 39, 28`    | Grounded footer background |
+| **Line Number**     | `#6C7C6E` | `108, 124, 110` | Subtle sage indicator      |
+| **Cursor Line**     | `#2A3729` | `42, 55, 41`    | Active line highlight      |
 
 ---
 
-## Syntax / Code Colors
+## 💻 Syntax / Code Colors
 
-| Token         | Color     | Description                               |
-| ------------- | --------- | ----------------------------------------- |
-| **Keyword**   | `#CCD9B5` | Natural green-yellow, grounded and clear  |
-| **Function**  | `#B8E0B8` | Misty soft green                          |
-| **String**    | `#E8C48F` | Warm amber tone                           |
-| **Number**    | `#D8B06A` | Balanced ochre warmth                     |
-| **Type**      | `#D4C99B` | Soft ivory-beige, timeless and neutral    |
-| **Constant**  | `#E5A94D` | The amber spark — signature accent        |
-| **Parameter** | `#C9B89C` | Calm neutral for arguments                |
-| **Operator**  | `#9FAA88` | Subtle gray-tan tone                      |
-| **Bracket**   | `#9FAA88` | Light neutral for structure               |
-| **Comment**   | `#5C705E` | Muted sage green — blends into background |
-
----
-
-## State Colors
-
-| State       | Color     | Description                   |
-| ----------- | --------- | ----------------------------- |
-| **Error**   | `#E16C5B` | Muted ember red               |
-| **Warning** | `#E5A94D` | Amber alert — same accent     |
-| **Info**    | `#B8C7AF` | Soft moss green               |
-| **Success** | `#A3C5A5` | Light pine green              |
-| **Hint**    | `#C9C2AA` | Neutral tone, subtle guidance |
+| Token         | HEX       | RGB (0–255)     | Description                          |
+| ------------- | --------- | --------------- | ------------------------------------ |
+| **Keyword**   | `#D8C58E` | `216, 197, 142` | Balanced ochre tone                  |
+| **Function**  | `#BFD5AF` | `191, 213, 175` | Soft sage-green — gentle and clear   |
+| **String**    | `#E7C287` | `231, 194, 135` | Warm amber text                      |
+| **Number**    | `#D8B06A` | `216, 176, 106` | Muted gold                           |
+| **Type**      | `#D4C99B` | `212, 201, 155` | Creamy beige — timeless and balanced |
+| **Constant**  | `#E4B463` | `228, 180, 99`  | Amber spark — signature accent       |
+| **Parameter** | `#C8BBA2` | `200, 187, 162` | Neutral supporting tone              |
+| **Operator**  | `#A6AF96` | `166, 175, 150` | Quiet gray-green — subtle structure  |
+| **Bracket**   | `#A6AF96` | `166, 175, 150` | Matches operator tone                |
+| **Comment**   | `#6C7C6E` | `108, 124, 110` | Subtle sage — fades into background  |
 
 ---
 
-## Git / Version Control
+## ⚠️ State Colors
 
-| Action       | Color     | Description                      |
-| ------------ | --------- | -------------------------------- |
-| **Added**    | `#A3C5A5` | Pine green — growth and addition |
-| **Modified** | `#E5A94D` | Warm amber — change or evolution |
-| **Deleted**  | `#E16C5B` | Ember red — removal              |
-
----
-
-## Focus & Attention
-
-| Element              | Color     | Description                         |
-| -------------------- | --------- | ----------------------------------- |
-| **Cursor**           | `#FFD67C` | Soft golden needle light            |
-| **Search Highlight** | `#3E4E3D` | Calm olive overlay                  |
-| **Important**        | `#E5A94D` | The bright spark in the pine shadow |
-| **Accent**           | `#E5A94D` | Signature Amber accent              |
+| State       | HEX       | RGB (0–255)     | Description                   |
+| ----------- | --------- | --------------- | ----------------------------- |
+| **Error**   | `#E17860` | `225, 120, 96`  | Warm ember red                |
+| **Warning** | `#E4B463` | `228, 180, 99`  | Amber tone — alert but gentle |
+| **Info**    | `#B4C7B0` | `180, 199, 176` | Misty moss green              |
+| **Success** | `#98C5A0` | `152, 197, 160` | Gentle forest approval        |
+| **Hint**    | `#D0CBB3` | `208, 203, 179` | Whispered ivory suggestion    |
 
 ---
 
-## Strong Signals (Special)
+## 🌿 Git / Version Control
 
-| Signal             | Color     | Description                     |
-| ------------------ | --------- | ------------------------------- |
-| **Strong Warning** | `#E5A94D` | Intense amber focus             |
-| **Strong Error**   | `#E16C5B` | Warm red, balanced, not jarring |
-| **Strong Success** | `#78A67E` | Clean forest green              |
-| **Strong General** | `#B89D6C` | Aged amber-brown — timeless     |
+| Action       | HEX       | RGB (0–255)     | Description                     |
+| ------------ | --------- | --------------- | ------------------------------- |
+| **Added**    | `#98C5A0` | `152, 197, 160` | Success green — growth and life |
+| **Modified** | `#E4B463` | `228, 180, 99`  | Amber change — evolution        |
+| **Deleted**  | `#E17860` | `225, 120, 96`  | Ember red — removal             |
+
+---
+
+## 🎯 Focus & Attention
+
+| Element                | HEX       | RGB (0–255)    | Description                |
+| ---------------------- | --------- | -------------- | -------------------------- |
+| **Cursor**             | `#E4B463` | `228, 180, 99` | Amber cursor — focal spark |
+| **Search Highlight**   | `#334333` | `51, 67, 51`   | Soft moss search overlay   |
+| **Visual Select**      | `#2A3729` | `42, 55, 41`   | Active selection highlight |
+| **Accent / Important** | `#E4B463` | `228, 180, 99` | Signature amber accent     |
 
 ---
 
 ## Typography
 
-**IBM Plex**:
+**IBM Plex**
+
 * **Mono** for development tools (Neovim, terminals)
 * **Sans** for interfaces and notes
-Its geometry pairs perfectly with the organic calm of this palette.
+
+Its geometry pairs perfectly with the organic calm of this palette — clarity meets warmth.
 
 ---
 
-## Currently Themed Apps
+## Supported Applications
 
 * **Neovim**
-* **Godot 4.x** 
+* **Godot 4.x**
 
 ---
 
@@ -125,6 +116,7 @@ Its geometry pairs perfectly with the organic calm of this palette.
 1. Open **Editor → Editor Settings**
 2. Navigate to **Interface → Theme**
 3. Update to these values:
+
    * **Base Color:** `#121A14`
    * **Accent Color:** `#E5A94D`
    * **Contrast:** `0.1`
@@ -144,6 +136,7 @@ Its geometry pairs perfectly with the organic calm of this palette.
 ---
 
 ## License
+
 MIT
 
 ---
