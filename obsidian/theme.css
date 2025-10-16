@@ -7,11 +7,11 @@ By TobiasDev
 /* LUMEN THEME — OBSIDIAN DARK MODE */
 .theme-dark {
   /* Background Colors */
-  --background-primary: #111D14;
-  --background-secondary: #141C16;
-  --background-tertiary: #141E0C;
+  --background-primary: #1B241B;
+  --background-secondary: #202C21;
+  --background-tertiary: #161E16;
   --background-modifier-border: #1A241A;
-  --background-modifier-form-field: #141C16;
+  --background-modifier-form-field: #202C21;
   --background-modifier-form-field-highlighted: #1E2C1F;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-success: #A3C5A5;
@@ -21,34 +21,34 @@ By TobiasDev
   --background-secondary-alt: #0E160F;
   
   /* Text Colors */
-  --text-normal: #E6E1CF;
-  --text-muted: #B3AD9A;
+  --text-normal: #E8E3D1;
+  --text-muted: #6C7C6E;
   --text-faint: #5C705E;
   --text-error: #E16C5B;
   --text-accent: #E5A94D;
   --text-accent-hover: #D8B06A;
-  --text-on-accent: #111D14;
+  --text-on-accent: #1B241B;
   --text-selection: rgba(42, 55, 41, 0.6);
   
   /* Interactive Elements */
-  --interactive-normal: #141C16;
+  --interactive-normal: #202C21;
   --interactive-hover: #1E2C1F;
   --interactive-accent: #E5A94D;
   --interactive-accent-hover: #D8B06A;
   --interactive-success: #A3C5A5;
   
   /* Scrollbar */
-  --scrollbar-bg: #111D14;
+  --scrollbar-bg: #1B241B;
   --scrollbar-thumb-bg: #415540;
   --scrollbar-active-thumb-bg: #E5A94D;
   
   /* Title Bar */
-  --titlebar-background: #111D14;
-  --titlebar-background-focused: #111D14;
+  --titlebar-background: #1B241B;
+  --titlebar-background-focused: #1B241B;
   
   /* Tab Colors */
   --tab-background-active: #1E2C1F;
-  --tab-text-color-active: #E6E1CF;
+  --tab-text-color-active: #E8E3D1;
   --tab-text-color-focused-active: #FFD67C;
   --tab-text-color-focused-active-current: #FFD67C;
   
@@ -59,7 +59,7 @@ By TobiasDev
   --divider-color: #1A241A;
   
   /* Syntax Highlighting */
-  --code-normal: #E6E1CF;
+  --code-normal: #E8E3D1;
   --code-comment: #5C705E;
   --code-function: #B8E0B8;
   --code-keyword: #CCD9B5;

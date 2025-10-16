@@ -2,22 +2,22 @@
 ChangeSelectionColor = true
 
 [Colors:Button]
-BackgroundNormal     = 18,26,20          # Deep pine green
-ForegroundNormal     = 230,225,213       # Soft warm white
+BackgroundNormal=28,39,28
+ForegroundNormal=232,227,209
 
 [Colors:Selection]
-BackgroundNormal     = 55,60,50          # Muted forest highlight
+BackgroundNormal=42,55,41
 ForegroundNormal     = 0
 
 [Colors:View]
-BackgroundAlternate  = 20,32,22          # Gentle pine tone
-BackgroundNormal     = 20,28,22          # Base background
+BackgroundAlternate=32,44,33
+BackgroundNormal=28,39,28
 ForegroundLink       = 226,184,109       # Warm amber link
 ForegroundNormal     = 229,225,213       # Text neutral
 
 [Colors:Window]
-BackgroundNormal     = 20,28,22
-ForegroundNormal     = 229,225,213
+BackgroundNormal=28,39,28
+ForegroundNormal=232,227,209
 
 [General]
 Name                 = Lumen
