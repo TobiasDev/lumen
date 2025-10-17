@@ -26,15 +26,15 @@ DecorationHover=231,194,135
 ForegroundActive=232,227,209
 ForegroundInactive=185,179,158
 ForegroundLink=228,180,99
-ForegroundNegative=225,120,96
-ForegroundNeutral=228,180,99
+ForegroundNegative=240,92,69
+ForegroundNeutral=229,194,135
 ForegroundNormal=232,227,209
 ForegroundPositive=152,197,160
-ForegroundVisited=208,203,179
+ForegroundVisited=185,179,158
 
 [Colors:Complementary]
 BackgroundAlternate=32,44,33
-BackgroundNormal=24,34,24
+BackgroundNormal=22,30,22
 DecorationFocus=228,180,99
 
 [Colors:Selection]
@@ -45,25 +45,25 @@ DecorationHover=231,194,135
 ForegroundActive=232,227,209
 ForegroundInactive=185,179,158
 ForegroundLink=228,180,99
-ForegroundNegative=225,120,96
-ForegroundNeutral=228,180,99
+ForegroundNegative=240,92,69
+ForegroundNeutral=229,194,135
 ForegroundNormal=232,227,209
 ForegroundPositive=152,197,160
-ForegroundVisited=208,203,179
+ForegroundVisited=185,179,158
 
 [Colors:Tooltip]
 BackgroundAlternate=32,44,33
-BackgroundNormal=24,34,24
+BackgroundNormal=22,30,22
 DecorationFocus=228,180,99
 DecorationHover=231,194,135
 ForegroundActive=232,227,209
 ForegroundInactive=185,179,158
 ForegroundLink=228,180,99
-ForegroundNegative=225,120,96
-ForegroundNeutral=228,180,99
+ForegroundNegative=240,92,69
+ForegroundNeutral=229,194,135
 ForegroundNormal=232,227,209
 ForegroundPositive=152,197,160
-ForegroundVisited=208,203,179
+ForegroundVisited=185,179,158
 
 [Colors:View]
 BackgroundAlternate=32,44,33
@@ -73,25 +73,25 @@ DecorationHover=231,194,135
 ForegroundActive=232,227,209
 ForegroundInactive=185,179,158
 ForegroundLink=228,180,99
-ForegroundNegative=225,120,96
-ForegroundNeutral=228,180,99
+ForegroundNegative=240,92,69
+ForegroundNeutral=229,194,135
 ForegroundNormal=232,227,209
 ForegroundPositive=152,197,160
-ForegroundVisited=208,203,179
+ForegroundVisited=185,179,158
 
 [Colors:Window]
 BackgroundAlternate=32,44,33
-BackgroundNormal=28,39,28
+BackgroundNormal=32,44,33
 DecorationFocus=228,180,99
 DecorationHover=231,194,135
 ForegroundActive=232,227,209
 ForegroundInactive=185,179,158
 ForegroundLink=228,180,99
-ForegroundNegative=225,120,96
-ForegroundNeutral=228,180,99
+ForegroundNegative=240,92,69
+ForegroundNeutral=229,194,135
 ForegroundNormal=232,227,209
 ForegroundPositive=152,197,160
-ForegroundVisited=208,203,179
+ForegroundVisited=185,179,158
 
 [General]
 ColorScheme=Lumen

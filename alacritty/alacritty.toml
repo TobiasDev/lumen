@@ -24,25 +24,25 @@ foreground = '#E8E3D1'
 
 # Normal colors
 [colors.normal]
-black   = '#1B241B'  # bg_primary - deep pine shadow
-red     = '#E16C5B'  # error - warm ember red
-green   = '#A3C5A5'  # success - pine green
-yellow  = '#E5A94D'  # accent - signature amber
-blue    = '#B8C7AF'  # info - soft moss green
-magenta = '#D4C99B'  # type - warm beige
-cyan    = '#B8E0B8'  # function - misty soft green
-white   = '#E6E1CF'  # fg_primary - warm ivory
+black   = '#1B241B'
+red     = '#E17860'
+green   = '#98C5A0'
+yellow  = '#E5C287'
+blue    = '#9AAFB8'
+magenta = '#D4A8B8'
+cyan    = '#9BC9C3'
+white   = '#E8E3D1'
 
 # Bright colors
 [colors.bright]
-black   = '#5C705E'  # comment/fg_muted - muted sage
-red     = '#E16C5B'  # strong_error (same as normal for consistency)
-green   = '#78A67E'  # strong_success - clean forest green
-yellow  = '#FFD67C'  # cursor - soft golden needle light
-blue    = '#B8C7AF'  # info (same as normal)
-magenta = '#E8C48F'  # string - warm amber tone
-cyan    = '#9FAA88'  # operator - light olive-sage
-white   = '#E6E1CF'  # fg_primary (same as normal)
+black   = '#5C705E'
+red     = '#E16C5B'
+green   = '#78A67E'
+yellow  = '#FFD67C'
+blue    = '#B8C7AF'
+magenta = '#E8C48F'
+cyan    = '#9FAA88'
+white   = '#E6E1CF'
 
 [keyboard]
 [[keyboard.bindings]]

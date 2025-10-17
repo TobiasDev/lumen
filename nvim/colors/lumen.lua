@@ -1,5 +1,5 @@
 -- Lumen v2 - A grounded, amber-lit workspace theme for deep creative flow
--- The key is balance: green as the earth, amber as the light, ivory as the breath
+-- Green as earth, amber as light, ivory as breath
 
 vim.cmd('hi clear')
 if vim.fn.exists('syntax_on') then
@@ -26,42 +26,43 @@ local colors = {
   -- UI Elements
   border = '#1E281F',          -- Natural separation
   selection = '#334333',       -- Soft moss overlay
-  active_item = '#E4B463',     -- Signature amber highlight
   scrollbar = '#465845',       -- Calm sage-gray
-  menu_bg = '#182218',         -- Quiet hover layer
-  status_bar = '#1C271C',      -- Grounded footer
-  line_number = '#6C7C6E',     -- Subtle sage
-  cursor_line = '#2A3729',     -- Active line highlight
   
-  -- Syntax Colors
+  -- Semantic Colors
+  red_soft = '#E17860',        -- Soft red
+  red_strong = '#F05C45',      -- Strong red - errors
+  orange_soft = '#E4B463',     -- Soft orange (amber)
+  yellow_soft = '#E5C287',     -- Soft yellow
+  green_soft = '#98C5A0',      -- Soft green
+  cyan_soft = '#9BC9C3',       -- Soft cyan
+  
+  -- Syntax Colors (Custom hierarchy)
   keyword = '#D8C58E',         -- Balanced ochre
   func = '#BFD5AF',            -- Soft sage-green
-  string = '#E7C287',          -- Warm amber text
+  string = '#E5C287',          -- Yellow (Soft)
   number = '#D8B06A',          -- Muted gold
   type = '#D4C99B',            -- Creamy beige
-  constant = '#E4B463',        -- Amber spark
-  parameter = '#C8BBA2',       -- Neutral supporting tone
-  operator = '#A6AF96',        -- Quiet gray-green
+  constant = '#E4B463',        -- Orange (Soft)
+  parameter = '#C8BBA2',       -- Neutral tan
+  operator = '#A6AF96',        -- Gray-green
   bracket = '#A6AF96',         -- Matches operator
-  comment = '#6C7C6E',         -- Subtle sage
+  comment = '#6C7C6E',         -- Text (Muted)
   
   -- State Colors
-  error = '#E17860',           -- Warm ember red
-  warning = '#E4B463',         -- Amber tone
-  info = '#B4C7B0',            -- Misty moss green
-  success = '#98C5A0',         -- Gentle forest approval
-  hint = '#D0CBB3',            -- Whispered ivory
+  error = '#F05C45',           -- Red (STRONG) - never miss
+  warning = '#E5C287',         -- Yellow (Soft)
+  info = '#9BC9C3',            -- Cyan (Soft)
+  success = '#98C5A0',         -- Green (Soft)
+  hint = '#B9B39E',            -- Text (Secondary)
   
   -- Git Colors
-  git_add = '#98C5A0',         -- Success green
-  git_change = '#E4B463',      -- Amber change
-  git_delete = '#E17860',      -- Error red
+  git_add = '#98C5A0',         -- Green (Soft)
+  git_change = '#E4B463',      -- Orange (Soft)
+  git_delete = '#E17860',      -- Red (Soft)
   
   -- Focus & Attention
-  cursor = '#E4B463',          -- Amber cursor
-  search = '#334333',          -- Soft moss search
-  visual = '#2A3729',          -- Active selection
-  accent = '#E4B463',          -- Signature amber
+  cursor = '#E4B463',          -- Orange (Soft)
+  accent = '#E4B463',          -- Orange (Soft)
 }
 
 -- Helper function
@@ -79,9 +80,9 @@ hi('Normal', { fg = colors.fg_primary, bg = colors.bg_primary })
 hi('NormalFloat', { fg = colors.fg_primary, bg = colors.bg_secondary })
 hi('NormalNC', { fg = colors.fg_primary, bg = colors.bg_primary })
 hi('Cursor', { fg = colors.bg_primary, bg = colors.cursor })
-hi('CursorLine', { bg = colors.cursor_line })
-hi('CursorColumn', { bg = colors.cursor_line })
-hi('LineNr', { fg = colors.line_number })
+hi('CursorLine', { bg = colors.bg_active })
+hi('CursorColumn', { bg = colors.bg_active })
+hi('LineNr', { fg = colors.fg_muted })
 hi('CursorLineNr', { fg = colors.accent, style = 'bold' })
 hi('SignColumn', { bg = colors.bg_primary })
 hi('ColorColumn', { bg = colors.bg_secondary })
@@ -91,23 +92,23 @@ hi('Folded', { fg = colors.fg_secondary, bg = colors.bg_secondary })
 hi('FoldColumn', { fg = colors.fg_muted, bg = colors.bg_primary })
 
 -- Statusline & Tabline
-hi('StatusLine', { fg = colors.fg_primary, bg = colors.status_bar })
+hi('StatusLine', { fg = colors.fg_primary, bg = colors.bg_secondary })
 hi('StatusLineNC', { fg = colors.fg_muted, bg = colors.bg_inactive })
 hi('TabLine', { fg = colors.fg_secondary, bg = colors.bg_secondary })
 hi('TabLineFill', { bg = colors.bg_primary })
 hi('TabLineSel', { fg = colors.accent, bg = colors.bg_active, style = 'bold' })
 
 -- Pmenu (completion)
-hi('Pmenu', { fg = colors.fg_primary, bg = colors.menu_bg })
+hi('Pmenu', { fg = colors.fg_primary, bg = colors.bg_secondary })
 hi('PmenuSel', { fg = colors.bg_primary, bg = colors.accent })
 hi('PmenuSbar', { bg = colors.scrollbar })
-hi('PmenuThumb', { bg = colors.active_item })
+hi('PmenuThumb', { bg = colors.accent })
 
 -- Search & Selection
-hi('Search', { fg = colors.fg_primary, bg = colors.search })
+hi('Search', { fg = colors.fg_primary, bg = colors.selection })
 hi('IncSearch', { fg = colors.bg_primary, bg = colors.accent })
-hi('Visual', { bg = colors.visual })
-hi('VisualNOS', { bg = colors.visual })
+hi('Visual', { bg = colors.bg_active })
+hi('VisualNOS', { bg = colors.bg_active })
 
 -- Messages
 hi('ModeMsg', { fg = colors.accent, style = 'bold' })
@@ -222,14 +223,13 @@ hi('GitSignsDelete', { fg = colors.git_delete })
 
 -- Telescope
 hi('TelescopeBorder', { bg = colors.bg_tertiary, fg = colors.border })
-hi('TelescopePromptBorder', {  bg = colors.bg_tertiary, fg = colors.border })
-hi('TelescopeResultsBorder', {  bg = colors.bg_tertiary, fg = colors.border })
+hi('TelescopePromptBorder', { bg = colors.bg_tertiary, fg = colors.border })
+hi('TelescopeResultsBorder', { bg = colors.bg_tertiary, fg = colors.border })
 hi('TelescopePreviewBorder', { bg = colors.bg_tertiary, fg = colors.border })
 hi('TelescopeSelection', { fg = colors.accent, bg = colors.selection })
 hi('TelescopeSelectionCaret', { fg = colors.cursor })
 hi('TelescopeMatching', { fg = colors.accent, style = 'bold' })
 hi('TelescopeNormal', { bg = colors.bg_tertiary, fg = colors.fg_primary })
-
 
 -- NvimTree
 hi('NvimTreeNormal', { fg = colors.fg_primary, bg = colors.bg_secondary })
