@@ -8,7 +8,7 @@ It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundn
 ---
 
 ## Core Background Colors
-![Backgrounds](palettes/backgrounds.png)
+![Background Colors](palettes/backgrounds.png)
 | Element                  | HEX       | RGB (0–255)  | Description      |
 |--------------------------|-----------|--------------|------------------|
 | **Background Primary**   | `#1B241B` | `27, 36, 27` | Main surface     |
@@ -18,7 +18,7 @@ It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundn
 | **Background Inactive**  | `#121A12` | `18, 26, 18` | Dimmed state     |
 
 ## Core Text Colors
-![Backgrounds](palettes/text.png)
+![Text Colors](palettes/text.png)
 | Element            | HEX       | RGB (0–255)     | Description      |
 |--------------------|-----------|-----------------|------------------|
 | **Text Primary**   | `#E8E3D1` | `232, 227, 209` | Main text        |
@@ -26,7 +26,7 @@ It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundn
 | **Text Muted**     | `#6C7C6E` | `108, 124, 110` | Comments, hints  |
 
 ## UI Elements
-![Backgrounds](palettes/ui_elements.png)
+![UI Element Colors](palettes/ui_elements.png)
 | Element       | HEX       | RGB (0–255)  | Description       |
 |---------------|-----------|--------------|-------------------|
 | **Border**    | `#1E281F` | `30, 40, 31` | Separators        |
@@ -35,6 +35,10 @@ It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundn
 
 ## Semantic Colors
 **Two variants: Soft (blends with theme) and Strong (high visibility)**
+
+![Semantic Colors (Soft)](palettes/colors_soft.png)
+![Semantic Colors (Strong)](palettes/colors_strong.png)
+
 | Color                             | Soft (HEX) | Soft (RGB, 0-255) | Strong (HEX) | Strong (RGB, 0-255) |
 |-----------------------------------|------------|-------------------|--------------|---------------------|
 | **Red**                           | `#E17860`  | `225, 120, 96`    | `#F05C45`    | `240, 92, 69`       |
@@ -47,7 +51,7 @@ It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundn
 | **Magenta**                       | `#D4A8B8`  | `212, 168, 184`   | `#C97A9A`    | `201, 122, 154`     |
 
 ## Syntax / Code Colors
-![Backgrounds](palettes/syntax_code.png)
+![Syntax Code Colors](palettes/syntax_code.png)
 | Token         | HEX              | RGB (0–255)     | Description                                    |
 |---------------|------------------|-----------------|------------------------------------------------|
 | **Keyword**   | `#D8C58E`        | `216, 197, 142` | **Custom ochre** — distinct from all semantics |
@@ -64,17 +68,17 @@ It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundn
 **Note:** Syntax needs 6 custom colors (ochre, sage-green, gold, beige, tan, gray-green) because code hierarchy requires more nuance than semantic states.
 
 ## State Colors
-![Backgrounds](palettes/state.png)
+![State Colors](palettes/states.png)
 | State       | Color            |
 |-------------|------------------|
-| **Error**   | Red (Hard)       |
+| **Error**   | Red (Strong)     |
 | **Warning** | Yellow (Soft)    |
 | **Info**    | Cyan (Soft)      |
 | **Success** | Green (Soft)     |
 | **Hint**    | Text (Secondary) |
 
 ## Git / Version Control
-![Backgrounds](palettes/git.png)
+![Git Colors](palettes/git.png)
 | Action       | Colors        |
 |--------------|---------------|
 | **Added**    | Green (Soft)  |
@@ -82,7 +86,7 @@ It emphasizes calm, muted tones, clean whitespace, and sharp corners over roundn
 | **Deleted**  | Red (Soft)    |
 
 ## Focus & Attention
-![Backgrounds](palettes/focus_attention.png)
+![Focus & Attention Colors](palettes/focus_attention.png)
 | Element                | Color         |
 |------------------------|---------------|
 | **Accent / Important** | Orange (Soft) |
