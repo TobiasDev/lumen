@@ -46,7 +46,7 @@ white   = '#E6E1CF'
 
 [keyboard]
 [[keyboard.bindings]]
-key = "C"
+key = "X"
 mods = "Control"
 action = "Copy"
 
