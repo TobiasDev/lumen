@@ -1,4 +1,4 @@
--- Lumen v2 - A grounded, amber-lit workspace theme for deep creative flow
+-- Lumen v3 - A grounded, amber-lit workspace theme for deep creative flow
 -- Green as earth, amber as light, ivory as breath
 
 vim.cmd('hi clear')
@@ -9,60 +9,62 @@ end
 vim.o.background = 'dark'
 vim.g.colors_name = 'lumen'
 
--- Lumen v2 Palette
+-- Updated Lumen v3 - softer, calmer, less harsh
 local colors = {
   -- Core Backgrounds
-  bg_primary = '#1B241B',      -- Muted sage shadow
-  bg_secondary = '#202C21',    -- Slightly lighter surface
-  bg_tertiary = '#161E16',     -- Depth and layering
-  bg_active = '#2A3729',       -- Selected/active panel
-  bg_inactive = '#121A12',     -- Dimmed, restful layer
+  bg_primary = '#252E25',      -- lighter, softer sage shadow
+  bg_secondary = '#2B362B',    -- subtle contrast for panels
+  bg_tertiary = '#1E261E',     -- depth layers
+  bg_active = '#37483A',       -- active selection, soft moss
+  bg_inactive = '#1A211A',     -- restful dimmed layer
   
   -- Core Text
-  fg_primary = '#E8E3D1',      -- Warm ivory
-  fg_secondary = '#B9B39E',    -- Gentle beige-gray
-  fg_muted = '#6C7C6E',        -- Quiet sage tone
+  fg_primary = '#EAE6D5',      -- slightly softer ivory
+  fg_secondary = '#C0BCA5',    -- warmer beige-gray
+  fg_muted = '#8A9A88',        -- softer sage for comments
   
   -- UI Elements
-  border = '#1E281F',          -- Natural separation
-  selection = '#334333',       -- Soft moss overlay
-  scrollbar = '#465845',       -- Calm sage-gray
+  border = '#2C3A2C',          -- gentler separation
+  selection = '#4A5A49',       -- soft moss highlight
+  scrollbar = '#5C6B5A',       -- calm sage-gray
   
   -- Semantic Colors
-  red_soft = '#E17860',        -- Soft red
-  red_strong = '#F05C45',      -- Strong red - errors
-  orange_soft = '#E4B463',     -- Soft orange (amber)
-  yellow_soft = '#E5C287',     -- Soft yellow
-  green_soft = '#98C5A0',      -- Soft green
-  cyan_soft = '#9BC9C3',       -- Soft cyan
+  red_soft = '#E3947D',        -- softer red
+  red_strong = '#F1735D',      -- errors
+  orange_soft = '#E7B77A',     -- amber, slightly less saturated
+  yellow_soft = '#ECD2A5',     -- softer warm yellow
+  green_soft = '#A3C9A9',      -- soft green
+  cyan_soft = '#A2D1CC',       -- soft cyan
+  blue_soft = '#AAC0C9',       -- optional soft blue
+  purple_soft = '#C2B2D1',     -- soft lavender
   
-  -- Syntax Colors (Custom hierarchy)
-  keyword = '#D8C58E',         -- Balanced ochre
-  func = '#BFD5AF',            -- Soft sage-green
-  string = '#E5C287',          -- Yellow (Soft)
-  number = '#D8B06A',          -- Muted gold
-  type = '#D4C99B',            -- Creamy beige
-  constant = '#E4B463',        -- Orange (Soft)
-  parameter = '#C8BBA2',       -- Neutral tan
-  operator = '#A6AF96',        -- Gray-green
-  bracket = '#A6AF96',         -- Matches operator
-  comment = '#6C7C6E',         -- Text (Muted)
+  -- Syntax Colors
+  keyword = '#E0D0A0',         -- ochre, softer
+  func = '#C3D9B7',            -- soft sage-green
+  string = '#ECD2A5',          -- yellow soft
+  number = '#DAB77F',          -- muted gold
+  type = '#D8CFB0',            -- creamy beige
+  constant = '#E7B77A',        -- orange soft
+  parameter = '#CBC0A8',       -- neutral tan
+  operator = '#ABB59E',        -- gray-green
+  bracket = '#ABB59E',           -- matches operator
+  comment = '#8A9A88',         -- muted sage
   
   -- State Colors
-  error = '#F05C45',           -- Red (STRONG) - never miss
-  warning = '#E5C287',         -- Yellow (Soft)
-  info = '#9BC9C3',            -- Cyan (Soft)
-  success = '#98C5A0',         -- Green (Soft)
-  hint = '#B9B39E',            -- Text (Secondary)
+  error = '#F1735D',           -- strong red
+  warning = '#ECD2A5',         -- soft yellow
+  info = '#A2D1CC',            -- soft cyan
+  success = '#A3C9A9',         -- soft green
+  hint = '#C0BCA5',            -- secondary text
   
   -- Git Colors
-  git_add = '#98C5A0',         -- Green (Soft)
-  git_change = '#E4B463',      -- Orange (Soft)
-  git_delete = '#E17860',      -- Red (Soft)
+  git_add = '#A3C9A9',         -- green soft
+  git_change = '#E7B77A',      -- orange soft
+  git_delete = '#E3947D',      -- red soft
   
   -- Focus & Attention
-  cursor = '#E4B463',          -- Orange (Soft)
-  accent = '#E4B463',          -- Orange (Soft)
+  cursor = '#E7B77A',          -- amber
+  accent = '#E7B77A',          -- amber
 }
 
 -- Helper function
@@ -242,6 +244,37 @@ hi('NvimTreeOpenedFile', { fg = colors.accent })
 hi('NvimTreeGitDirty', { fg = colors.git_change })
 hi('NvimTreeGitNew', { fg = colors.git_add })
 hi('NvimTreeGitDeleted', { fg = colors.git_delete })
+
+
+
+-- Markdown
+hi('markdownH1', { fg = colors.keyword, style = 'bold' })
+hi('markdownH2', { fg = colors.keyword })
+hi('markdownH3', { fg = colors.type })
+hi('markdownH4', { fg = colors.fg_primary })
+hi('markdownH5', { fg = colors.fg_secondary })
+hi('markdownH6', { fg = colors.fg_muted })
+
+hi('markdownHeadingDelimiter', { fg = colors.operator })
+
+hi('markdownBold', { fg = colors.fg_primary, style = 'bold' })
+hi('markdownItalic', { fg = colors.fg_secondary, style = 'italic' })
+hi('markdownBoldItalic', { fg = colors.fg_primary, style = 'bold,italic' })
+
+hi('markdownBlockquote', { fg = colors.fg_secondary, style = 'italic' })
+
+hi('markdownCode', { fg = colors.accent })
+hi('markdownCodeBlock', { fg = colors.accent })
+hi('markdownCodeDelimiter', { fg = colors.accent })
+
+hi('markdownListMarker', { fg = colors.operator })
+hi('markdownOrderedListMarker', { fg = colors.operator })
+
+hi('markdownRule', { fg = colors.border })
+
+hi('markdownLinkText', { fg = colors.accent })
+hi('markdownUrl', { fg = colors.fg_muted, style = 'italic' })
+hi('markdownLinkDelimiter', { fg = colors.operator })
 
 -- Terminal colors
 vim.g.terminal_color_0 = colors.bg_primary

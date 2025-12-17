@@ -1,48 +1,43 @@
 [window]
-
 opacity = 1.0
-
 padding.x = 10
 padding.y = 10
-
 decorations = "Full"
 decorations_theme_variant = "Dark"
 
 [font]
-
 normal.family = "IBM Plex Mono"
 bold.family = "IBM Plex Mono"
 italic.family = "IBM Plex Mono"
 bold_italic.family = "IBM Plex Mono"
-
 size = 11.0
 
-# Default colors
+# Primary colors
 [colors.primary]
-background = '#1B241B'
-foreground = '#E8E3D1'
+background = '#252E25'   # bg_primary
+foreground = '#EAE6D5'   # fg_primary
 
-# Normal colors
+# Normal ANSI colors
 [colors.normal]
-black   = '#1B241B'
-red     = '#E17860'
-green   = '#98C5A0'
-yellow  = '#E5C287'
-blue    = '#9AAFB8'
-magenta = '#D4A8B8'
-cyan    = '#9BC9C3'
-white   = '#E8E3D1'
+black   = '#1A211A'      # bg_inactive (dim black)
+red     = '#F1735D'      # error strong
+green   = '#A3C9A9'      # green soft
+yellow  = '#E7B77A'      # orange soft / warm yellow
+blue    = '#AAC0C9'      # soft blue
+magenta = '#C2B2D1'      # soft purple
+cyan    = '#A2D1CC'      # soft cyan
+white   = '#EAE6D5'      # fg_primary
 
-# Bright colors
+# Bright ANSI colors
 [colors.bright]
-black   = '#5C705E'
-red     = '#E16C5B'
-green   = '#78A67E'
-yellow  = '#FFD67C'
-blue    = '#B8C7AF'
-magenta = '#E8C48F'
-cyan    = '#9FAA88'
-white   = '#E6E1CF'
+black   = '#4A5A49'      # selection (slightly lifted)
+red     = '#E3947D'      # soft red
+green   = '#C3D9B7'      # soft lifted green (function color)
+yellow  = '#ECD2A5'      # soft yellow
+blue    = '#C7D6DD'      # lighter blue
+magenta = '#D8C9E2'      # lighter lavender
+cyan    = '#BEE1DD'      # lighter soft cyan
+white   = '#F5F2E7'      # slightly brighter ivory
 
 [keyboard]
 [[keyboard.bindings]]
