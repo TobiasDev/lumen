@@ -163,7 +163,3 @@ MIT
 ### A theme for deep work, lit by natural warmth.
 
 ---
-
-If you want, the next step could be updating **the KDE / Dolphin colors** to match this softer palette, so all apps gradually feel cohesive without being too jarring.
-
-Do you want me to do that next?
