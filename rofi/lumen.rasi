@@ -1,0 +1,112 @@
+/* ROFI VERTICAL THEME USING THE LUMEN COLOR PALETTE */
+/* A theme for deep work, lit by natural warmth */
+
+* {
+    font:   "IBM Plex Mono 11";
+
+    /* Core Backgrounds */
+    bg-primary:     #252E25;
+    bg-secondary:   #2B362B;
+    bg-tertiary:    #1E261E;
+    bg-active:      #37483A;
+    bg-inactive:    #1A211A;
+
+    /* Core Text */
+    text-primary:   #EAE6D5;
+    text-secondary: #C0BCA5;
+    text-muted:     #8A9A88;
+
+    /* UI Elements */
+    border:         #2C3A2C;
+    selection:      #4A5A49;
+
+    /* Semantic Colors (Soft) */
+    red-soft:       #E3947D;
+    orange-soft:    #E7B77A;
+    yellow-soft:    #ECD2A5;
+    green-soft:     #A3C9A9;
+    cyan-soft:      #A2D1CC;
+
+    /* Semantic Colors (Strong) */
+    cyan-strong:    #5FB8B0;
+    yellow-strong:  #FFD67C;
+
+    background-color:   transparent;
+    text-color:         @text-primary;
+    accent-color:       @orange-soft;
+
+    margin:     2px;
+    padding:    4px;
+    spacing:    2px;
+}
+
+window {
+    background-color:   @bg-primary;
+    border-color:       @accent-color;
+
+    location:   center;
+    width:      480px;
+    border:     1px;
+}
+
+inputbar {
+    padding:    8px 12px;
+    spacing:    12px;
+    children:   [ prompt, entry ];
+}
+
+prompt, entry, element-text, element-icon {
+    vertical-align: 0.5;
+}
+
+prompt {
+    text-color: @accent-color;
+}
+
+listview {
+    lines:      8;
+    columns:    1;
+
+    fixed-height:   false;
+}
+
+element {
+    padding:    8px;
+    spacing:    8px;
+}
+
+element normal urgent {
+    text-color: @yellow-soft;
+}
+
+element normal active {
+    text-color: @accent-color;
+}
+
+element alternate active {
+    text-color: @accent-color;
+}
+
+element selected {
+    text-color: @bg-primary;
+}
+
+element selected normal {
+    background-color:   @accent-color;
+}
+
+element selected urgent {
+    background-color:   @yellow-strong;
+}
+
+element selected active {
+    background-color:   @cyan-soft;
+}
+
+element-icon {
+    size:   0.75em;
+}
+
+element-text {
+    text-color: inherit;
+}
