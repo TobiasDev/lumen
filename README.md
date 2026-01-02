@@ -127,19 +127,20 @@ Its geometry pairs perfectly with the organic calm of this palette — clarity m
 ---
 
 ## Supported Applications
-
 * **Alacritty**
-* **Neovim**
-* **Godot 4.x**
-* **KDE Plasma (Partially)**
-* **Krita**
+* **Blender 3D** - NOTE: This is still using the version 1.0 colors, and has not yet been updated
+* **Neovim** - Found here: [https://github.com/TobiasDev/lumen-nvim](https://github.com/TobiasDev/lumen-nvim)
+* **Godot 4.x** - See below for setup
+* **KDE Plasma** - NOTE: Not yet fully themed
+* **Krita** - NOTE: Has readability issue when hovering over top panel text
+* **Rofi** 
+
 
 ## Godot 4.x Setup
 
 1. Open **Editor → Editor Settings**
 2. Navigate to **Interface → Theme**
 3. Update to these values:
-
    * **Base Color:** `#252E25`
    * **Accent Color:** `#E7B77A`
    * **Contrast:** `0.3`
@@ -148,10 +149,9 @@ Its geometry pairs perfectly with the organic calm of this palette — clarity m
 
 ## Theme Development Roadmap
 
-* [x] Create Nvim Theme
-* [ ] Create full KDE Theme
+* [x] Create Nvim Theme - Found here: [https://github.com/TobiasDev/lumen-nvim](https://github.com/TobiasDev/lumen-nvim)
+* [ ] Update to a full KDE Theme
 * [ ] Create OBS Theme
-* [ ] Updated Krita Theme
 * [ ] Add wallpapers & accent assets
 
 ---

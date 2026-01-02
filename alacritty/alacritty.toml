@@ -38,14 +38,3 @@ blue    = '#C7D6DD'      # lighter blue
 magenta = '#D8C9E2'      # lighter lavender
 cyan    = '#BEE1DD'      # lighter soft cyan
 white   = '#F5F2E7'      # slightly brighter ivory
-
-[keyboard]
-[[keyboard.bindings]]
-key = "X"
-mods = "Control"
-action = "Copy"
-
-[[keyboard.bindings]]
-key = "V"
-mods = "Control"
-action = "Paste"

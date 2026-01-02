@@ -1,23 +1,157 @@
+# Lumen v3 - Krita Color Theme
+# A grounded, amber-lit workspace theme for deep creative flow
+# Green as earth, amber as light, ivory as breath
+#
+# Installation:
+# Copy this file to:
+# Linux: ~/.local/share/krita/color-schemes/
+# Windows: %APPDATA%\krita\color-schemes\
+# macOS: ~/Library/Application Support/krita/color-schemes/
+
+[ColorEffects:Disabled]
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
+
 [ColorEffects:Inactive]
-ChangeSelectionColor = true
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
 
 [Colors:Button]
-BackgroundNormal=28,39,28
-ForegroundNormal=232,227,209
+BackgroundAlternate=43,54,43
+BackgroundNormal=37,46,37
+DecorationFocus=231,183,122
+DecorationHover=163,201,169
+ForegroundActive=231,183,122
+ForegroundInactive=138,154,136
+ForegroundLink=231,183,122
+ForegroundNegative=241,115,93
+ForegroundNeutral=236,210,165
+ForegroundNormal=234,230,213
+ForegroundPositive=163,201,169
+ForegroundVisited=194,178,209
+
+[Colors:Complementary]
+BackgroundAlternate=30,38,30
+BackgroundNormal=37,46,37
+DecorationFocus=231,183,122
+DecorationHover=163,201,169
+ForegroundActive=231,183,122
+ForegroundInactive=138,154,136
+ForegroundLink=231,183,122
+ForegroundNegative=241,115,93
+ForegroundNeutral=236,210,165
+ForegroundNormal=234,230,213
+ForegroundPositive=163,201,169
+ForegroundVisited=194,178,209
+
+[Colors:Header]
+BackgroundAlternate=43,54,43
+BackgroundNormal=37,46,37
+DecorationFocus=231,183,122
+DecorationHover=163,201,169
+ForegroundActive=231,183,122
+ForegroundInactive=138,154,136
+ForegroundLink=231,183,122
+ForegroundNegative=241,115,93
+ForegroundNeutral=236,210,165
+ForegroundNormal=234,230,213
+ForegroundPositive=163,201,169
+ForegroundVisited=194,178,209
+
+[Colors:Header][Inactive]
+BackgroundAlternate=30,38,30
+BackgroundNormal=26,33,26
+DecorationFocus=138,154,136
+DecorationHover=138,154,136
+ForegroundActive=192,188,165
+ForegroundInactive=138,154,136
+ForegroundLink=138,154,136
+ForegroundNegative=227,148,125
+ForegroundNeutral=192,188,165
+ForegroundNormal=192,188,165
+ForegroundPositive=163,201,169
+ForegroundVisited=170,192,201
 
 [Colors:Selection]
-BackgroundNormal=42,55,41
-ForegroundNormal     = 0
+BackgroundAlternate=55,72,58
+BackgroundNormal=74,90,73
+DecorationFocus=231,183,122
+DecorationHover=231,183,122
+ForegroundActive=234,230,213
+ForegroundInactive=234,230,213
+ForegroundLink=231,183,122
+ForegroundNegative=241,115,93
+ForegroundNeutral=234,230,213
+ForegroundNormal=234,230,213
+ForegroundPositive=163,201,169
+ForegroundVisited=194,178,209
+
+[Colors:Tooltip]
+BackgroundAlternate=43,54,43
+BackgroundNormal=43,54,43
+DecorationFocus=231,183,122
+DecorationHover=163,201,169
+ForegroundActive=231,183,122
+ForegroundInactive=138,154,136
+ForegroundLink=231,183,122
+ForegroundNegative=241,115,93
+ForegroundNeutral=236,210,165
+ForegroundNormal=234,230,213
+ForegroundPositive=163,201,169
+ForegroundVisited=194,178,209
 
 [Colors:View]
-BackgroundAlternate=32,44,33
-BackgroundNormal=28,39,28
-ForegroundLink       = 226,184,109       # Warm amber link
-ForegroundNormal     = 229,225,213       # Text neutral
+BackgroundAlternate=43,54,43
+BackgroundNormal=37,46,37
+DecorationFocus=231,183,122
+DecorationHover=163,201,169
+ForegroundActive=231,183,122
+ForegroundInactive=138,154,136
+ForegroundLink=231,183,122
+ForegroundNegative=241,115,93
+ForegroundNeutral=236,210,165
+ForegroundNormal=234,230,213
+ForegroundPositive=163,201,169
+ForegroundVisited=194,178,209
 
 [Colors:Window]
-BackgroundNormal=28,39,28
-ForegroundNormal=232,227,209
+BackgroundAlternate=43,54,43
+BackgroundNormal=37,46,37
+DecorationFocus=231,183,122
+DecorationHover=163,201,169
+ForegroundActive=231,183,122
+ForegroundInactive=138,154,136
+ForegroundLink=231,183,122
+ForegroundNegative=241,115,93
+ForegroundNeutral=236,210,165
+ForegroundNormal=234,230,213
+ForegroundPositive=163,201,169
+ForegroundVisited=194,178,209
 
 [General]
-Name                 = Lumen
+ColorScheme=Lumen
+Name=Lumen
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+[WM]
+activeBackground=37,46,37
+activeBlend=37,46,37
+activeForeground=234,230,213
+inactiveBackground=26,33,26
+inactiveBlend=26,33,26
+inactiveForeground=138,154,136
