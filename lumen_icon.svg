@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="lumen_icon.svg"
+   inkscape:export-filename="lumen_icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.60745751"
+     inkscape:cx="141.57369"
+     inkscape:cy="497.15411"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#c0bca5;stroke:none;stroke-width:2.11667;stroke-linecap:square;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect1"
+       width="23.031019"
+       height="47.650387"
+       x="92.468399"
+       y="200.5146"
+       ry="0"
+       inkscape:label="rect1" />
+    <circle
+       style="fill:#e7b77a;fill-opacity:1;stroke:#e7b77a;stroke-width:3.72303;stroke-linecap:square;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path2"
+       cx="140.17528"
+       cy="52.484364"
+       r="32.489655" />
+    <path
+       style="fill:#252e25;stroke:none;stroke-width:3.27996;stroke-linecap:square;paint-order:markers fill stroke;fill-opacity:1"
+       d="M 107.69748,70.45695 182.52951,224.3398 H 103.98391 27.563637 Z"
+       id="path1-3-1" />
+    <path
+       style="fill:#252e25;stroke:none;stroke-width:3.01838;stroke-linecap:square;paint-order:markers fill stroke;fill-opacity:1"
+       d="M 107.7048,40.373096 182.7399,170.33771 H 103.98115 27.353504 Z"
+       id="path1-3" />
+    <path
+       style="fill:#252e25;stroke:none;stroke-width:2.11667;stroke-linecap:square;paint-order:markers fill stroke;fill-opacity:1"
+       d="m 106.89678,18.133195 52.61913,91.139035 H 104.28553 50.549587 Z"
+       id="path1" />
+  </g>
+</svg>
